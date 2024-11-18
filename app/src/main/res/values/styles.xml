@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="TextAppearance.MaterialComponents.Headline6" parent="TextAppearance.MaterialComponents.Headline6" tools:ignore="ResourceCycle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.MaterialComponents.Body1" parent="TextAppearance.MaterialComponents.Body1" tools:ignore="ResourceCycle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.MaterialComponents.Body2" parent="TextAppearance.MaterialComponents.Body2" tools:ignore="ResourceCycle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.MaterialComponents.Caption" parent="TextAppearance.MaterialComponents.Caption" tools:ignore="ResourceCycle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+</resources>

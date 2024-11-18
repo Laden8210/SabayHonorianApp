@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "787272520042",
+    "project_id": "sabayhonorianapp-be909",
+    "storage_bucket": "sabayhonorianapp-be909.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787272520042:android:916c1bbb0b0b7d3a831513",
+        "android_client_info": {
+          "package_name": "com.example.sabayhonorianapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbwACUnG3_Z-nkIpVBgJHpPgxWXVjdqRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

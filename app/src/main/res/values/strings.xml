@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SabayHonorianApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="user_type_options">
+        <item>Student</item>
+        <item>Driver</item>
+    </string-array>
+
+    <string-array name="vehicle_type_options">
+        <item>Motorcycle</item>
+        <item>Tricycle</item>
+        <item>Jeepney</item>
+        <item>Car</item>
+    </string-array>
+
+    <string-array name="destination_options">
+        <item>
+        DHVSU Main Campus to Palawi
+        </item>
+
+        <item>
+        DHVSU Main Campus to Intersection
+        </item>
+
+        <item>
+        DHVSU Main Campus to Intersection Bus Terminal
+        </item>
+
+        <item>
+        DHVSU Main Campus to SM Pampanga
+        </item>
+
+        <item>
+        DHVSU Main Campus to Robinsons Pampanga
+        </item>
+
+        <item>
+        DHVSU Main Campus to SM Downtown
+        </item>
+        <item>
+        DHVSU Main Campus to Betis Church
+        </item>
+        <item>
+        DHVSU Main Campus to Guagua Plaza
+        </item>
+    </string-array>
+    <string name="mapbox_access_token">sk.eyJ1IjoibGFkZW44MjEwIiwiYSI6ImNtM2J3cGxwbDFqNXkyanF4cG1rNW0xcDgifQ.TDmArJT6K1oz6Kgv54Qsxw</string>
+
+
+</resources>
