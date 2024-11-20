@@ -1,0 +1,6 @@
+com.example.sabayhonorianapp.test.app-tracing-1.2.0-0 C:\Users\user\.gradle\caches\8.9\transforms\13379cf3ee213bd08aee41704fa84904\transformed\tracing-1.2.0\res
+com.example.sabayhonorianapp.test.app-core-1.6.1-1 C:\Users\user\.gradle\caches\8.9\transforms\705c02457f449feb1b83f8b8f8e51a2e\transformed\core-1.6.1\res
+com.example.sabayhonorianapp.test.app-androidTest-2 C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\build\generated\res\resValues\androidTest\debug
+com.example.sabayhonorianapp.test.app-mergeDebugAndroidTestResources-3 C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.sabayhonorianapp.test.app-mergeDebugAndroidTestResources-4 C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.sabayhonorianapp.test.app-debugAndroidTest-5 C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">787272520042</string>
+    <string name="google_api_key" translatable="false">AIzaSyCbwACUnG3_Z-nkIpVBgJHpPgxWXVjdqRY</string>
+    <string name="google_app_id" translatable="false">1:787272520042:android:916c1bbb0b0b7d3a831513</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCbwACUnG3_Z-nkIpVBgJHpPgxWXVjdqRY</string>
+    <string name="google_storage_bucket" translatable="false">sabayhonorianapp-be909.appspot.com</string>
+    <string name="project_id" translatable="false">sabayhonorianapp-be909</string>
+</resources>

@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_loader_3.gif.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\loader_3.gif"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_rounded_bg_status_orange.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\rounded_bg_status_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_fragment_inbox.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\fragment_inbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_gradient_bg_card.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\gradient_bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_confirmed_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_confirmed_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_bs_add_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\bs_add_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_gradient_bg_orange_card.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\gradient_bg_orange_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_placeholder.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_hero.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_hero.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_card_inbox.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\card_inbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_menu_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_place_autocomplete.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_place_autocomplete.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_spinner_bg.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\spinner_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_ride_navigation_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_ride_navigation_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_chat_bubble_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_chat_bubble_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_create_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_create_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_loader.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\loader.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_rounded_bg_status_pending.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\rounded_bg_status_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_fragment_setting.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_card_message_sender.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\card_message_sender.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_view_publish_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_view_publish_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_card_message_receiver.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\card_message_receiver.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_access_time_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_access_time_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_item_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\item_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_card_available_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\card_available_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_send_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_send_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_person_outline_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_person_outline_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_fragment_publish_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\fragment_publish_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_location_pin.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\location_pin.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_arrow_forward_ios_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_card_publish_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\card_publish_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_arrow_back_ios_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\navigation_user_navigation.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\navigation\\user_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_people_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_people_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_rounded_bg_vehicle_orange.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\rounded_bg_vehicle_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_item_card_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\item_card_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_my_location_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_my_location_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_map.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.sabayhonorianapp-debug-83:/layout_fragment_dashboard.xml.flat",
+        "source": "com.example.sabayhonorianapp-main-85:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_ride_detail.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_ride_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_card_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_card_join_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\card_join_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_view_message.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_view_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_add_circle_outline_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_add_circle_outline_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_ride_logo.gif.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\ride_logo.gif"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\menu_user_menu.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\menu\\user_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]
