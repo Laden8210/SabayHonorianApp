@@ -45,7 +45,7 @@ public class RideDetailActivity extends AppCompatActivity {
         tvLocationStart1 = findViewById(R.id.tvLocationStart1);
         tvAuthorName = findViewById(R.id.tvAuthorName);
         tvPassengerLimit = findViewById(R.id.tvPassengerLimit);
-        tvCarModel = findViewById(R.id.tvCarModel);
+
         tvRideDescription = findViewById(R.id.tvRideDescription);
         requestRideButton = findViewById(R.id.button);
         tvContactAuthor = findViewById(R.id.tvContactAuthor);

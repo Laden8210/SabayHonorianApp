@@ -124,7 +124,7 @@ public class FirestoreRepositoryImpl<T> implements FirestoreRepository<T> {
 
     @Override
     public void readById(String id, final FirestoreCallback callback) {
-        Log.d("read id", id);
+
         db.collection(collectionName).document(id).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {

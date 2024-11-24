@@ -4938,7 +4938,6 @@ id triangle
 id tripProgressContainer
 id tvAuthorName
 id tvAvailableSeats
-id tvCarModel
 id tvCommentText
 id tvCommentTimestamp
 id tvCommenterName

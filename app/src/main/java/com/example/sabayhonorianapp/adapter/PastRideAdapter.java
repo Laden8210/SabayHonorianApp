@@ -108,7 +108,7 @@ public class PastRideAdapter extends RecyclerView.Adapter<PastRideAdapter.PastRi
             tvRoute = itemView.findViewById(R.id.tv_route);
             tvTime = itemView.findViewById(R.id.tv_time);
             tvSeatsAvailable = itemView.findViewById(R.id.tv_seats_available);
-            tvStatus = new TextView(itemView.getContext());
+            tvStatus = itemView.findViewById(R.id.tv_status);
             cardView = itemView.findViewById(R.id.cardView);
         }
     }

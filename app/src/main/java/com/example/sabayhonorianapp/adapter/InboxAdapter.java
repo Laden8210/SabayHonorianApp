@@ -2,6 +2,7 @@ package com.example.sabayhonorianapp.adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -47,7 +48,9 @@ public class InboxAdapter extends RecyclerView.Adapter<InboxAdapter.InboxViewHol
     @Override
     public void onBindViewHolder(@NonNull InboxViewHolder holder, int position) {
         Message message = messages.get(position);
-        messageService.readItem(message.getReceiverUID(), new FirestoreCallback() {
+        Log.d("InboxAdapter", "onBindViewHolder: " + message.getSenderUID());
+        Log.d("InboxAdapter", "onBindViewHolder: " + message.getReceiverUID());
+        messageService.readItemByField("userUID",message.getSenderUID(), new FirestoreCallback() {
             @Override
             public void onSuccess(Object result) {
                 UserAccount userAccount = (UserAccount) result;
@@ -55,6 +58,7 @@ public class InboxAdapter extends RecyclerView.Adapter<InboxAdapter.InboxViewHol
                 holder.cardView.setOnClickListener(e -> {
                     Intent intent = new Intent(context, ViewMessage.class);
                     intent.putExtra("receiverId", userAccount.getUserUID());
+                    intent.putExtra("senderId", message.getSenderUID());
                     context.startActivity(intent);
                 });
             }

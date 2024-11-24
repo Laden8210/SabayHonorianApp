@@ -5,6 +5,8 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -14,6 +16,7 @@ import com.example.sabayhonorianapp.R;
 import com.example.sabayhonorianapp.adapter.MessageAdapter;
 import com.example.sabayhonorianapp.callback.FirestoreCallback;
 import com.example.sabayhonorianapp.model.Message;
+import com.example.sabayhonorianapp.model.UserAccount;
 import com.example.sabayhonorianapp.repository.FirestoreRepositoryImpl;
 import com.example.sabayhonorianapp.service.GenericService;
 import com.example.sabayhonorianapp.util.Messenger;
@@ -33,6 +36,7 @@ public class ViewMessage extends AppCompatActivity {
     private int employeeID;
     private RecyclerView rvMessage;
     private MessageAdapter messageAdapter;
+    private ImageView ivProfile;
 
     private ImageButton btnSend;
     private TextInputLayout tilMessage;
@@ -45,6 +49,8 @@ public class ViewMessage extends AppCompatActivity {
     private FirestoreRepositoryImpl<Message> messageRepository;
     private GenericService<Message> messageService;
 
+    private TextView tvName;
+
     private FirebaseAuth mAuth = FirebaseAuth.getInstance();
 
     @Override
@@ -55,17 +61,39 @@ public class ViewMessage extends AppCompatActivity {
         rvMessage = findViewById(R.id.rv_message);
         rvMessage.setLayoutManager(new LinearLayoutManager(this));
 
+        ivProfile = findViewById(R.id.imageView3);
+        ivProfile.setOnClickListener(v -> {
+            finish();
+        });
+
         messageRepository = new FirestoreRepositoryImpl<>("messages", Message.class);
         messageService = new GenericService<>(messageRepository);
 
         btnSend = findViewById(R.id.imageButton);
         tilMessage = findViewById(R.id.textInputLayout2);
 
+        tvName = findViewById(R.id.textView6);
+
         btnSend.setOnClickListener(this::sendMessage);
         handler = new Handler();
 
-        if (getIntent().hasExtra("receiverId")) {
-            receiverID = getIntent().getStringExtra("receiverId");
+        if (getIntent().hasExtra("senderId")) {
+            receiverID = getIntent().getStringExtra("senderId");
+
+            FirestoreRepositoryImpl<UserAccount> userAccountRepository = new FirestoreRepositoryImpl<>("user", UserAccount.class);
+
+            userAccountRepository.readByField("userUID", receiverID, new FirestoreCallback() {
+                @Override
+                public void onSuccess(Object result) {
+                    UserAccount userAccount = (UserAccount) result;
+                    tvName.setText(userAccount.getFirstName() + " " + userAccount.getLastName());
+                }
+
+                @Override
+                public void onFailure(Exception e) {
+                    Log.e("ViewMessage", "Failed to retrieve user account", e);
+                }
+            });
         } else {
             Log.e("ViewMessage", "No receiverID passed to ViewMessage");
         }
@@ -86,7 +114,8 @@ public class ViewMessage extends AppCompatActivity {
 
         Message newMessage = new Message();
         newMessage.setSenderUID(mAuth.getCurrentUser().getUid());
-        newMessage.setReceiverUID(receiverID);
+
+        newMessage.setReceiverUID(getIntent().getStringExtra("senderId"));
         newMessage.setMessage(message);
         newMessage.setTimestamp(Timestamp.now());
         messageService.createItem(newMessage, new FirestoreCallback() {

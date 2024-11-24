@@ -442,8 +442,8 @@ public class RideNavigationRide extends AppCompatActivity {
     private void startRide(View view){
         if (getIntent().hasExtra("postRide")) {
             String postRideId = getIntent().getStringExtra("postRide");
-
-            postRideService.readItem(postRideId, new FirestoreCallback() {
+            Log.d("RideNavigationRide", "PostRideId: " + postRideId);
+            postRideRepository.readById(postRideId, new FirestoreCallback() {
 
                 @Override
                 public void onSuccess(Object result) {

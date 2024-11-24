@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -32,6 +33,8 @@ public class ViewPublishRideActivity extends AppCompatActivity {
     private PostRide ride;
     private RecyclerView rvPublishRide;
 
+    private TextView tvRideDescription, tvLocationStart1, tvLocationStart2, tvPassengerLimit, tvTimeStart1, tvTimeStart2, tvDate;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,6 +53,27 @@ public class ViewPublishRideActivity extends AppCompatActivity {
 
         btnStartRide.setOnClickListener(this::startRideAction);
 
+        tvRideDescription = findViewById(R.id.tvRideDescription);
+        tvLocationStart1 = findViewById(R.id.tvLocationStart1);
+        tvLocationStart2 = findViewById(R.id.tvLocationStart2);
+        tvPassengerLimit = findViewById(R.id.tvPassengerLimit);
+        tvTimeStart1 = findViewById(R.id.tvTimeStart1);
+        tvTimeStart2 = findViewById(R.id.tvTimeStart2);
+        tvDate = findViewById(R.id.tvDate);
+
+
+        if (getIntent().hasExtra("postRide")){
+            PostRide postRide = getIntent().getParcelableExtra("postRide");
+            tvRideDescription.setText(postRide.getDescription());
+            tvLocationStart1.setText(postRide.getOrigin());
+            tvLocationStart2.setText(postRide.getDestination());
+            tvPassengerLimit.setText("Max, "+ postRide.getAvailableSeats() + "  passengers");
+
+
+
+
+        }
+
         loadData();
     }
 
@@ -67,8 +91,8 @@ public class ViewPublishRideActivity extends AppCompatActivity {
                     }
 
                     Intent intent = new Intent(ViewPublishRideActivity.this, RideNavigationRide.class);
-                    String uid = getIntent().getStringExtra("postRide");
-                    intent.putExtra("postRide", uid);
+                    PostRide rideId = getIntent().getParcelableExtra("postRide");
+                    intent.putExtra("postRide", rideId.getPostUID());
                     startActivity(intent);
                 },
                 (dialog, which) -> dialog.dismiss()
@@ -76,7 +100,7 @@ public class ViewPublishRideActivity extends AppCompatActivity {
     }
 
     private void loadData() {
-        String rideId = getIntent().getStringExtra("postRide");
+        PostRide rideId = getIntent().getParcelableExtra("postRide");
         if (rideId == null) {
             Log.e("ViewPublishRideActivity", "Ride ID is null.");
             return;
@@ -91,7 +115,7 @@ public class ViewPublishRideActivity extends AppCompatActivity {
                     List<BookRide> bookRides = (List<BookRide>) result;
                     List<BookRide> filterRide = new ArrayList<>();
                     for (BookRide bookRide : bookRides) {
-                        if (bookRide.getPostRideId().equals(rideId)) {
+                        if (bookRide.getPostRideId().equals(rideId.getPostUID())) {
                             filterRide.add(bookRide);
                         }
                     }

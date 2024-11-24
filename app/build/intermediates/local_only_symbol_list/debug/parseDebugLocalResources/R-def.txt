@@ -299,7 +299,6 @@ id tilMiddleName
 id tilPassword
 id tvAuthorName
 id tvAvailableSeats
-id tvCarModel
 id tvCommentText
 id tvCommentTimestamp
 id tvCommenterName

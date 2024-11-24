@@ -4,6 +4,10 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\loader_3.gif"
     },
     {
+        "merged": "com.example.sabayhonorianapp-debug-83:/layout_activity_view_publish_ride.xml.flat",
+        "source": "com.example.sabayhonorianapp-main-85:/layout/activity_view_publish_ride.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_rounded_bg_status_orange.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\rounded_bg_status_orange.xml"
     },
@@ -156,10 +160,6 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\card_available_ride.xml"
     },
     {
-        "merged": "com.example.sabayhonorianapp-debug-83:/layout_fragment_setting.xml.flat",
-        "source": "com.example.sabayhonorianapp-main-85:/layout/fragment_setting.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_send_24.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_send_24.xml"
     },
@@ -252,12 +252,12 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\fragment_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_card_join_ride.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\card_join_ride.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_view_message.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_view_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_card_join_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\card_join_ride.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_item_payment_detail.xml.flat",
