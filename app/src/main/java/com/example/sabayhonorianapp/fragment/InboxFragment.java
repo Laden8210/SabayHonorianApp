@@ -62,7 +62,15 @@ public class InboxFragment extends Fragment {
             @Override
             public void onSuccess(List<Message> result) {
 
-                rvInbox.setAdapter(new InboxAdapter(getContext(), result));
+                List<Message> messages = new ArrayList<>();
+
+                for (Message message : result) {
+                    if (message.getReceiverUID().equalsIgnoreCase(senderID)) {
+                        messages.add(message);
+                    }
+                }
+
+                rvInbox.setAdapter(new InboxAdapter(getContext(), messages));
             }
 
             @Override

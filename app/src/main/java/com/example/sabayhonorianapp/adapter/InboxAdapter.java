@@ -20,6 +20,7 @@ import com.example.sabayhonorianapp.repository.FirestoreRepositoryImpl;
 import com.example.sabayhonorianapp.service.GenericService;
 import com.example.sabayhonorianapp.view.RideDetailActivity;
 import com.example.sabayhonorianapp.view.ViewMessage;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.List;
 
@@ -30,6 +31,8 @@ public class InboxAdapter extends RecyclerView.Adapter<InboxAdapter.InboxViewHol
 
     private FirestoreRepositoryImpl<UserAccount> messageRepository;
     private GenericService<UserAccount> messageService;
+
+    private FirebaseAuth mAuth = FirebaseAuth.getInstance();
     public InboxAdapter(Context context, List<Message> messages) {
         this.context = context;
         this.messages = messages;
@@ -50,6 +53,29 @@ public class InboxAdapter extends RecyclerView.Adapter<InboxAdapter.InboxViewHol
         Message message = messages.get(position);
         Log.d("InboxAdapter", "onBindViewHolder: " + message.getSenderUID());
         Log.d("InboxAdapter", "onBindViewHolder: " + message.getReceiverUID());
+
+        if (mAuth.getCurrentUser().getUid().equalsIgnoreCase(message.getSenderUID())) {
+            messageService.readItemByField("userUID",message.getReceiverUID(), new FirestoreCallback() {
+                @Override
+                public void onSuccess(Object result) {
+                    UserAccount userAccount = (UserAccount) result;
+                    holder.tvName.setText(userAccount.getFirstName() + " " + userAccount.getLastName());
+                    holder.cardView.setOnClickListener(e -> {
+                        Intent intent = new Intent(context, ViewMessage.class);
+                        intent.putExtra("receiverId", userAccount.getUserUID());
+                        intent.putExtra("senderId", message.getReceiverUID());
+                        context.startActivity(intent);
+                    });
+                }
+
+                @Override
+                public void onFailure(Exception e) {
+
+                }
+            });
+            return;
+        }
+
         messageService.readItemByField("userUID",message.getSenderUID(), new FirestoreCallback() {
             @Override
             public void onSuccess(Object result) {

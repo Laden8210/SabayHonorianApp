@@ -262,16 +262,16 @@
         <item name="colorSurfaceContainerHigh">@color/md_theme_surfaceContainerHigh</item>
         <item name="colorSurfaceContainerHighest">@color/md_theme_surfaceContainerHighest</item>
     </style>
-    <style name="TextAppearance.MaterialComponents.Body1" ns1:ignore="ResourceCycle" parent="TextAppearance.MaterialComponents.Body1">
+    <style name="TextAppearance.MaterialComponents.Body1" parent="TextAppearance.MaterialComponents.Body1" ns1:ignore="ResourceCycle">
         <item name="android:textSize">16sp</item>
     </style>
-    <style name="TextAppearance.MaterialComponents.Body2" ns1:ignore="ResourceCycle" parent="TextAppearance.MaterialComponents.Body2">
+    <style name="TextAppearance.MaterialComponents.Body2" parent="TextAppearance.MaterialComponents.Body2" ns1:ignore="ResourceCycle">
         <item name="android:textSize">14sp</item>
     </style>
-    <style name="TextAppearance.MaterialComponents.Caption" ns1:ignore="ResourceCycle" parent="TextAppearance.MaterialComponents.Caption">
+    <style name="TextAppearance.MaterialComponents.Caption" parent="TextAppearance.MaterialComponents.Caption" ns1:ignore="ResourceCycle">
         <item name="android:textSize">12sp</item>
     </style>
-    <style name="TextAppearance.MaterialComponents.Headline6" ns1:ignore="ResourceCycle" parent="TextAppearance.MaterialComponents.Headline6">
+    <style name="TextAppearance.MaterialComponents.Headline6" parent="TextAppearance.MaterialComponents.Headline6" ns1:ignore="ResourceCycle">
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
     </style>
