@@ -45,7 +45,10 @@
         <item>Jeepney</item>
         <item>Car</item>
     </string-array>
+    <color name="background_color">#F9F9F9</color>
     <color name="background_gray">#F9F9F9</color>
+    <color name="background_input">#F5F5F5</color>
+    <color name="background_secondary">#FFFFFF</color>
     <color name="black">#1B1B1B</color>
     <color name="dark_gray">#616161</color>
     <color name="gray">#BDBDBD</color>
@@ -199,6 +202,8 @@
     <color name="primary_light">#BB86FC</color>
     <color name="secondary_text">#757575</color>
     <color name="status_pending">#FF5722</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
     <color name="white">#FFFFFF</color>
     <string name="app_name">SabayHonorianApp</string>
     <string name="gcm_defaultSenderId" translatable="false">787272520042</string>

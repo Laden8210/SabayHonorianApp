@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-61:12
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-67:12
 MERGED from [androidx.navigation:navigation-common:2.8.1] C:\Users\user\.gradle\caches\8.9\transforms\84afdc8405f68a254956c9672ac4577f\transformed\navigation-common-2.8.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.8.1] C:\Users\user\.gradle\caches\8.9\transforms\3aaebc093dc5c364ace15c98264bd4e1\transformed\navigation-runtime-2.8.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment:2.8.1] C:\Users\user\.gradle\caches\8.9\transforms\731caf6c2b13fe0f941d15bd8f7fbf6a\transformed\navigation-fragment-2.8.1\AndroidManifest.xml:17:1-22:12
@@ -202,8 +202,8 @@ ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\And
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:8:22-77
 application
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:10:5-59:19
-INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:10:5-59:19
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:10:5-65:19
+INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:10:5-65:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\8.9\transforms\0af954194a2bbb69c73d75da01a2ca74\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\8.9\transforms\0af954194a2bbb69c73d75da01a2ca74\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\8.9\transforms\01f9baa033049f6be3fb9d3c7ae51d06\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -285,93 +285,105 @@ MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\user\.gradle\caches\8.9\
 	android:fullBackupContent
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:13:9-54
 	android:roundIcon
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:16:9-43
 	tools:targetApi
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:19:9-29
 	android:icon
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:14:9-38
 	android:allowBackup
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:18:9-54
 	android:dataExtractionRules
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:12:9-65
-activity#com.example.sabayhonorianapp.view.RideNavigationRide
+activity#com.example.sabayhonorianapp.view.DisplayPaymentActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:21:13-52
-activity#com.example.sabayhonorianapp.MapActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:21:13-56
+activity#com.example.sabayhonorianapp.view.CurrentBookingRideActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:24:13-40
-activity#com.example.sabayhonorianapp.view.CreateRideActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:24:13-60
+activity#com.example.sabayhonorianapp.view.RideNavigationRide
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:27:13-52
-activity#com.example.sabayhonorianapp.view.ViewPublishRideActivity
+activity#com.example.sabayhonorianapp.MapActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:30:13-57
-activity#com.example.sabayhonorianapp.view.RegisterActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:30:13-40
+activity#com.example.sabayhonorianapp.view.CreateRideActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:33:13-50
-activity#com.example.sabayhonorianapp.view.ConfirmedRideActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:33:13-52
+activity#com.example.sabayhonorianapp.view.ViewPublishRideActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:36:13-55
-activity#com.example.sabayhonorianapp.view.RideDetailActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:36:13-57
+activity#com.example.sabayhonorianapp.view.RegisterActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:39:13-52
-activity#com.example.sabayhonorianapp.view.ViewMessage
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:39:13-50
+activity#com.example.sabayhonorianapp.view.ConfirmedRideActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:42:13-45
-activity#com.example.sabayhonorianapp.view.HeroActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:42:13-55
+activity#com.example.sabayhonorianapp.view.RideDetailActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:45:13-46
-activity#com.example.sabayhonorianapp.view.LoginActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:45:13-52
+activity#com.example.sabayhonorianapp.view.ViewMessage
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:48:13-47
-activity#com.example.sabayhonorianapp.MainActivity
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:50:9-58:20
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:48:13-45
+activity#com.example.sabayhonorianapp.view.HeroActivity
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:52:13-36
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:51:13-41
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:51:13-46
+activity#com.example.sabayhonorianapp.view.LoginActivity
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:53:9-55:40
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:54:13-47
+activity#com.example.sabayhonorianapp.MainActivity
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:56:9-64:20
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:57:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:53:13-57:29
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:59:13-63:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:54:17-69
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:60:17-69
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:54:25-66
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:60:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:56:17-77
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:62:17-77
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:56:27-74
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:62:27-74
 uses-sdk
 INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml

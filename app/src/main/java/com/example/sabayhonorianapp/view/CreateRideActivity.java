@@ -50,7 +50,7 @@ import kotlin.coroutines.CoroutineContext;
 
 public class CreateRideActivity extends AppCompatActivity {
 
-    private TextInputEditText etRideDate, etRideTime, etRideEndTime, etOrigin, etDestination, etAvailableSet, etDescription;
+    private TextInputEditText etRideDate, etRideTime, etRideEndTime, etOrigin, etDestination, etAvailableSet, etDescription, etFare;
     private Spinner etVehicleType;
     private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
     private SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm", Locale.getDefault());
@@ -74,6 +74,7 @@ public class CreateRideActivity extends AppCompatActivity {
         postRideRepository = new FirestoreRepositoryImpl<>("postRide", PostRide.class);
         postRideService = new GenericService<>(postRideRepository);
 
+
         btnAddRide = findViewById(R.id.btnAddRide);
 
         btnAddRide.setOnClickListener(this::saveAction);
@@ -82,6 +83,7 @@ public class CreateRideActivity extends AppCompatActivity {
         etRideTime = findViewById(R.id.etRideTime);
         etRideEndTime = findViewById(R.id.etRideEndTime);
         etOrigin = findViewById(R.id.etOrigin);
+        etFare = findViewById(R.id.etFare);
 
         etVehicleType = findViewById(R.id.etVehicleType);
         mAuth = FirebaseAuth.getInstance();
@@ -119,6 +121,7 @@ public class CreateRideActivity extends AppCompatActivity {
         String destination = etDestination.getText().toString();
         String origin = etOrigin.getText().toString();
         String vehicleType = etVehicleType.getSelectedItem().toString();
+        String fare = etFare.getText().toString();
         int availableSeats = Integer.parseInt(etAvailableSet.getText().toString());
 
         if (description.isEmpty() || postDateStr.isEmpty() || rideTimeStr.isEmpty() || rideEndTimeStr.isEmpty() || destination.isEmpty() || origin.isEmpty() || vehicleType.isEmpty() || availableSeats == 0) {
@@ -153,6 +156,7 @@ public class CreateRideActivity extends AppCompatActivity {
         postRide.setRideDate(postDate);
         postRide.setOriginCoordination(route.getStartingCoordination());
         postRide.setDestinationCoordination(route.getEndingCoordination());
+       postRide.setPrice(Double.parseDouble(fare));
 
 
         userAccountGenericService.readItemByField("userUID", mAuth.getCurrentUser().getUid(), new FirestoreCallback() {

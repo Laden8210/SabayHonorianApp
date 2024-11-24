@@ -30,7 +30,30 @@ public class PostRide implements Parcelable {
     private Coordination originCoordination;
     private Coordination destinationCoordination;
 
+    private double price;
+
+
     public PostRide() {
+    }
+
+    public PostRide(String postUID, String authorUID, String authorName, Date postDate, String description, Timestamp rideTime, Timestamp rideEnd, Timestamp postTime, Date rideDate, String destination, String origin, String status, String vehicleType, int availableSeats, Coordination originCoordination, Coordination destinationCoordination, double price) {
+        this.postUID = postUID;
+        this.authorUID = authorUID;
+        this.authorName = authorName;
+        this.postDate = postDate;
+        this.description = description;
+        this.rideTime = rideTime;
+        this.rideEnd = rideEnd;
+        this.postTime = postTime;
+        this.rideDate = rideDate;
+        this.destination = destination;
+        this.origin = origin;
+        this.status = status;
+        this.vehicleType = vehicleType;
+        this.availableSeats = availableSeats;
+        this.originCoordination = originCoordination;
+        this.destinationCoordination = destinationCoordination;
+        this.price = price;
     }
 
     protected PostRide(Parcel in) {
@@ -46,6 +69,9 @@ public class PostRide implements Parcelable {
         status = in.readString();
         vehicleType = in.readString();
         availableSeats = in.readInt();
+        originCoordination = in.readParcelable(Coordination.class.getClassLoader());
+        destinationCoordination = in.readParcelable(Coordination.class.getClassLoader());
+        price = in.readDouble();
     }
 
     @Override
@@ -62,6 +88,9 @@ public class PostRide implements Parcelable {
         dest.writeString(status);
         dest.writeString(vehicleType);
         dest.writeInt(availableSeats);
+        dest.writeParcelable(originCoordination, flags);
+        dest.writeParcelable(destinationCoordination, flags);
+        dest.writeDouble(price);
     }
 
     @Override
@@ -207,5 +236,13 @@ public class PostRide implements Parcelable {
 
     public void setDestinationCoordination(Coordination destinationCoordination) {
         this.destinationCoordination = destinationCoordination;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }

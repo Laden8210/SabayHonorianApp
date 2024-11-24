@@ -3,6 +3,7 @@ package com.example.sabayhonorianapp.view;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -142,7 +143,29 @@ public class RideDetailActivity extends AppCompatActivity {
             @Override
             public void onSuccess(Object result) {
                 loader.dismissLoader();
-                Messenger.showAlertDialog(RideDetailActivity.this, "Request Ride", "You have already requested a ride", "Ok").show();
+                BookRide getbookRide = (BookRide) result;
+
+                Log.d("BookRide", getbookRide.getPostRideId());
+                Log.d("PostRide", getIntent().getStringExtra("postRide"));
+
+                if (getbookRide.getPostRideId().equalsIgnoreCase(getIntent().getStringExtra("postRide"))) {
+                    Messenger.showAlertDialog(RideDetailActivity.this, "Request Ride", "You have already requested a ride", "Ok").show();
+                }else {
+                    bookRideService.createItem(bookRide, new FirestoreCallback() {
+                        @Override
+                        public void onSuccess(Object result) {
+                            loader.dismissLoader();
+                            Messenger.showAlertDialog(RideDetailActivity.this, "Request Ride", "Ride requested successfully", "Ok").show();
+                        }
+
+                        @Override
+                        public void onFailure(Exception e) {
+                            loader.dismissLoader();
+                            Messenger.showAlertDialog(RideDetailActivity.this, "Request Ride", "Failed to request ride", "Ok").show();
+                        }
+                    });
+                }
+
             }
 
             @Override

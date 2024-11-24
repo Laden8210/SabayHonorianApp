@@ -108,6 +108,10 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_item_comment.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\item_comment.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_loader.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\loader.xml"
     },
@@ -150,6 +154,10 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_card_available_ride.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\card_available_ride.xml"
+    },
+    {
+        "merged": "com.example.sabayhonorianapp-debug-83:/layout_fragment_setting.xml.flat",
+        "source": "com.example.sabayhonorianapp-main-85:/layout/fragment_setting.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_send_24.xml.flat",
@@ -216,6 +224,10 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_my_location_24.xml"
     },
     {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_display_payment.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_display_payment.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_map.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_map.xml"
     },
@@ -226,10 +238,6 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.sabayhonorianapp-debug-83:/layout_fragment_dashboard.xml.flat",
-        "source": "com.example.sabayhonorianapp-main-85:/layout/fragment_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_ride_detail.xml.flat",
@@ -252,6 +260,10 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_view_message.xml"
     },
     {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_item_payment_detail.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\item_payment_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_baseline_add_circle_outline_24.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\baseline_add_circle_outline_24.xml"
     },
@@ -266,6 +278,10 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_ride_logo.gif.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\ride_logo.gif"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_activity_current_booking_ride.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\activity_current_booking_ride.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\menu_user_menu.xml.flat",

@@ -1,5 +1,7 @@
 package com.example.sabayhonorianapp.view;
 
+import android.app.AlertDialog;
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -25,6 +27,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -424,6 +427,8 @@ public class RideNavigationRide extends AppCompatActivity {
         postRideService = new GenericService<>(postRideRepository);
         mAuth = FirebaseAuth.getInstance();
 
+
+
         setRoute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -444,6 +449,39 @@ public class RideNavigationRide extends AppCompatActivity {
                 public void onSuccess(Object result) {
                     PostRide postRide = (PostRide) result;
                     fetchRoute(Point.fromLngLat(postRide.getDestinationCoordination().getLongitude(), postRide.getDestinationCoordination().getLatitude()));
+
+
+
+                    completeRide.setOnClickListener(v -> {
+
+                        new AlertDialog.Builder(RideNavigationRide.this)
+                                .setTitle("Complete Ride")
+                                .setMessage("Are you sure you want to mark this ride as completed?")
+                                .setPositiveButton("Yes", (dialog, which) -> {
+                                    postRide.setStatus("Completed");
+                                    postRideRepository.update(postRideId, postRide, new FirestoreCallback() {
+                                        @Override
+                                        public void onSuccess(Object result) {
+                                            Intent intent = new Intent(RideNavigationRide.this, DisplayPaymentActivity.class);
+
+                                            intent.putExtra("postRideId", postRideId);
+                                            startActivity(intent);
+                                        }
+                                        @Override
+                                        public void onFailure(Exception e) {
+
+                                            Toast.makeText(getApplicationContext(), "Failed to update ride status.", Toast.LENGTH_SHORT).show();
+                                            Log.e("CompleteRide", "Error updating ride status", e);
+                                        }
+                                    });
+                                })
+                                .setNegativeButton("Cancel", (dialog, which) -> {
+                                    dialog.dismiss();
+                                })
+                                .show();
+                    });
+
+
                 }
 
                 @Override
@@ -451,6 +489,7 @@ public class RideNavigationRide extends AppCompatActivity {
 
                 }
             });
+
 
         }
     }
@@ -477,15 +516,17 @@ public class RideNavigationRide extends AppCompatActivity {
                     public void onRoutesReady(@NonNull List<NavigationRoute> list, @NonNull RouterOrigin routerOrigin) {
                         mapboxNavigation.setNavigationRoutes(list);
                         focusLocationBtn.performClick();
-                        setRoute.setEnabled(true);
-                        setRoute.setText("Set route");
+                        setRoute.setEnabled(false);
+
                         completeRide.setEnabled(true);
+
+
                     }
 
                     @Override
                     public void onFailure(@NonNull List<RouterFailure> list, @NonNull RouteOptions routeOptions) {
                         setRoute.setEnabled(true);
-                        setRoute.setText("Set route");
+
                         Toast.makeText(RideNavigationRide.this, "Route request failed", Toast.LENGTH_SHORT).show();
                     }
 

@@ -65,12 +65,18 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SabayHonorianApp" >
+        <activity
+            android:name="com.example.sabayhonorianapp.view.DisplayPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.sabayhonorianapp.view.CurrentBookingRideActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.sabayhonorianapp.view.RideNavigationRide"
             android:exported="false" />

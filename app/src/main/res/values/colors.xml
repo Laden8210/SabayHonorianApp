@@ -19,6 +19,14 @@
     <color name="dark_gray">#616161</color>
     <color name="light_gray">#F9F9F9</color>
 
+    <color name="background_color">#F9F9F9</color>
+    <color name="background_secondary">#FFFFFF</color>
+    <color name="background_input">#F5F5F5</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+
+
 
 
     <color name="md_theme_primary">#ff8300</color>

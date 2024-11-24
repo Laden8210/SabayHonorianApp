@@ -229,9 +229,39 @@ public class FirestoreRepositoryImpl<T> implements FirestoreRepository<T> {
     }
 
 
+    public void readAll(String field, String uid, final FirestoreCallback callback) {
+        db.collection(collectionName)
+                .whereEqualTo(field, uid)
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if (task.isSuccessful()) {
+                            List<T> itemList = new ArrayList<>();
+                            for (QueryDocumentSnapshot document : task.getResult()) {
+                                T item = document.toObject(modelClass);
 
+                                setDocumentId(item, document.getId());
 
+                                itemList.add(item);
+                            }
+                            callback.onSuccess(itemList);
+                        } else {
+                            Log.e("Firestore", "Error retrieving documents: " + task.getException().getMessage(), task.getException());
+                            callback.onFailure(task.getException());
+                        }
+                    }
+                });
+    }
 
-
+    private void setDocumentId(T item, String documentId) {
+        if (item instanceof UserAccount) {
+            ((UserAccount) item).setUserUID(documentId);
+        } else if (item instanceof PostRide) {
+            ((PostRide) item).setPostUID(documentId);
+        } else if (item instanceof BookRide) {
+            ((BookRide) item).setRideId(documentId);
+        }
+    }
 
 }

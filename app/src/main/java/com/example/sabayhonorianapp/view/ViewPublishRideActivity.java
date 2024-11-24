@@ -7,11 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -30,83 +26,91 @@ import java.util.List;
 
 public class ViewPublishRideActivity extends AppCompatActivity {
 
-
     private FirestoreRepositoryImpl<BookRide> bookRideRepository;
     private GenericService<BookRide> bookRideService;
     private Button btnStartRide;
     private PostRide ride;
     private RecyclerView rvPublishRide;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_view_publish_ride);
+
         rvPublishRide = findViewById(R.id.recyclerView);
+        btnStartRide = findViewById(R.id.button2);
 
         bookRideRepository = new FirestoreRepositoryImpl<>("bookRide", BookRide.class);
         bookRideService = new GenericService<>(bookRideRepository);
 
+        ride = (PostRide) getIntent().getParcelableExtra("postRide");
+        if (ride == null) {
+            Log.e("ViewPublishRideActivity", "Failed to retrieve ride object. Intent extra 'ride' is null.");
+        }
 
-        ride = (PostRide) getIntent().getSerializableExtra("ride");
-
-
-
-        btnStartRide = findViewById(R.id.button2);
         btnStartRide.setOnClickListener(this::startRideAction);
+
         loadData();
-
-
     }
 
     private void startRideAction(View view) {
+        if (ride == null) {
+            Messenger.showAlertDialog(this, "Error", "Ride details are missing. Please try again.", "Ok").show();
+            return;
+        }
 
         Messenger.showAlertDialog(this, "Ride Now", "Are you sure you want to start the ride?", "Ok", "Cancel",
-                new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(ViewPublishRideActivity.this, RideNavigationRide.class);
-
-
-                        String uid = getIntent().getStringExtra("postRide");
-
-                        intent.putExtra("postRide", uid);
-                        startActivity(intent);
+                (dialog, which) -> {
+                    if (ride.getStatus() != null && ride.getStatus().equalsIgnoreCase("Completed")) {
+                        Messenger.showAlertDialog(ViewPublishRideActivity.this, "Ride Completed", "This ride has already been completed", "Ok").show();
+                        return;
                     }
-                }, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-                    }
-                }).show();
 
+                    Intent intent = new Intent(ViewPublishRideActivity.this, RideNavigationRide.class);
+                    String uid = getIntent().getStringExtra("postRide");
+                    intent.putExtra("postRide", uid);
+                    startActivity(intent);
+                },
+                (dialog, which) -> dialog.dismiss()
+        ).show();
     }
 
     private void loadData() {
         String rideId = getIntent().getStringExtra("postRide");
-        Log.d("RideId", rideId);
+        if (rideId == null) {
+            Log.e("ViewPublishRideActivity", "Ride ID is null.");
+            return;
+        }
+
+        Log.d("ViewPublishRideActivity", "Loading data for rideId: " + rideId);
+
         bookRideRepository.readAll(new FirestoreCallback() {
             @Override
             public void onSuccess(Object result) {
-                List<BookRide> bookRides = (List<BookRide>) result;
-                List<BookRide> filterRide = new ArrayList<>();
-                for (BookRide bookRide : bookRides) {
-                    if (bookRide.getPostRideId().equals(rideId)) {
-                        filterRide.add(bookRide);
+                if (result instanceof List<?>) {
+                    List<BookRide> bookRides = (List<BookRide>) result;
+                    List<BookRide> filterRide = new ArrayList<>();
+                    for (BookRide bookRide : bookRides) {
+                        if (bookRide.getPostRideId().equals(rideId)) {
+                            filterRide.add(bookRide);
+                        }
                     }
-                }
 
-                rvPublishRide.setLayoutManager(new LinearLayoutManager(ViewPublishRideActivity.this));
-                rvPublishRide.setAdapter(new JoinRideAdapter(new Listener() {
-                    @Override
-                    public void listen() {
-                        loadData();
-                    }
-                },ViewPublishRideActivity.this, filterRide));
+                    rvPublishRide.setLayoutManager(new LinearLayoutManager(ViewPublishRideActivity.this));
+                    rvPublishRide.setAdapter(new JoinRideAdapter(new Listener() {
+                        @Override
+                        public void listen() {
+                            loadData();
+                        }
+                    }, ViewPublishRideActivity.this, filterRide));
+                } else {
+                    Log.e("ViewPublishRideActivity", "Unexpected data type received for BookRide list.");
+                }
             }
 
             @Override
             public void onFailure(Exception e) {
-
+                Log.e("ViewPublishRideActivity", "Failed to fetch BookRide data.", e);
             }
         });
     }

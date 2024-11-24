@@ -66,7 +66,7 @@ public class PublishRideAdapter extends RecyclerView.Adapter<PublishRideAdapter.
         holder.tvStatus.setText(postRide.getStatus());
         holder.cardView.setOnClickListener(v -> {
             Intent intent = new Intent(context, ViewPublishRideActivity.class);
-            intent.putExtra("postRide", postRide.getPostUID());
+            intent.putExtra("postRide", postRide);
             context.startActivity(intent);
         });
 

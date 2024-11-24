@@ -39,7 +39,7 @@
         android:layout_above="@id/completeRide"
         android:layout_marginBottom="20sp"
         android:id="@+id/setRoute"
-        android:text="Complete Ride"/>
+        android:text="Start Ride"/>
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
@@ -49,7 +49,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="20sp"
         android:id="@+id/completeRide"
-        android:text="Start Ride"/>
+        android:text="Complete Ride"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"

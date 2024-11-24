@@ -28,7 +28,6 @@ public class LoginActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
 
-
         email = findViewById(R.id.tilEmail);
         password = findViewById(R.id.tilPassword);
 
@@ -53,7 +52,16 @@ public class LoginActivity extends AppCompatActivity {
             if (task.isSuccessful()) {
                 FirebaseUser user = mAuth.getCurrentUser();
                 Messenger.showAlertDialog(this, "Registration successful", "You have successfully registered", "OK").show();
-                startActivity(new Intent(this, RegisterActivity.class));
+
+                mAuth.signInWithEmailAndPassword(emailInput, passwordInput).addOnCompleteListener(signInTask -> {
+                    if (signInTask.isSuccessful()) {
+
+                        startActivity(new Intent(this, RegisterActivity.class));
+                        finish();
+                    } else {
+                        Messenger.showAlertDialog(this, "Login failed", "Unable to log in after registration", "OK").show();
+                    }
+                });
             } else {
                 Messenger.showAlertDialog(this, "Registration failed", "Registration failed", "OK").show();
             }
@@ -83,28 +91,40 @@ public class LoginActivity extends AppCompatActivity {
 
     private boolean validateEmail(String emailInput) {
         if (emailInput.isEmpty()) {
-            email.setError("Email is required");
+            showError("Email is required", "Email is required");
             return false;
         } else if (!Patterns.EMAIL_ADDRESS.matcher(emailInput).matches()) {
-            email.setError("Please provide a valid email");
+            showError("Please provide a valid email", "Invalid email format");
+            return false;
+        } else if (!emailInput.contains("dhvsu.edu.ph")) {
+            showError("Please provide a valid dhvsu email", "Invalid domain");
             return false;
         } else {
-            email.setError(null);
+
             return true;
         }
     }
 
+    private void showError(String alertMessage, String errorMessage) {
+        Messenger.showAlertDialog(this, "Validation failed", alertMessage, "OK").show();
+
+    }
+
     private boolean validatePassword(String passwordInput) {
         if (passwordInput.isEmpty()) {
-            password.setError("Password is required");
+            showPasswordError("Password is required", "Password is empty");
             return false;
         } else if (passwordInput.length() < 6) {
-            password.setError("Password must be at least 6 characters");
+            showPasswordError("Password must be at least 6 characters", "Password too short");
             return false;
         } else {
-            password.setError(null);
             return true;
         }
+    }
+
+    private void showPasswordError(String alertMessage, String errorMessage) {
+        Messenger.showAlertDialog(this, "Validation failed", alertMessage, "OK").show();
+
     }
 
     private void updateUI(FirebaseUser user) {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sabayhonorianapp-mergeDebugResources-81:/values-night-v8/values-night-v8.xml",
+            "outputFile": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-mergeDebugResources-81:\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\400f6aa721c48d63d6a649658cfae938\\transformed\\ui-tripprogress-2.15.2\\res\\values-night-v8\\values-night-v8.xml",
@@ -149,6 +149,150 @@
                         "startOffsets": "2455",
                         "endColumns": "82",
                         "endOffsets": "2533"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.sabayhonorianapp-mergeDebugResources-81:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\400f6aa721c48d63d6a649658cfae938\\transformed\\ui-tripprogress-2.15.2\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "29,30,31",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1859,1928,2008",
+                        "endColumns": "68,79,88",
+                        "endOffsets": "1923,2003,2092"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\0af954194a2bbb69c73d75da01a2ca74\\transformed\\material-1.12.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,118,119,120,121,122,123,124,125",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "6822,6897,7008,7097,7198,7305,7412,7511,7618,7721,7848,7936,8060,8162,8264,8380,8482,8596,8724,8840,8962,9098,9218,9352,9472,9584,9799,9916,10040,10170,10292,10430,10564,10680",
+                        "endColumns": "74,110,88,100,106,106,98,106,102,126,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "6892,7003,7092,7193,7300,7407,7506,7613,7716,7843,7931,8055,8157,8259,8375,8477,8591,8719,8835,8957,9093,9213,9347,9467,9579,9705,9911,10035,10165,10287,10425,10559,10675,10795"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\AndroidStudioProjects\\SabayHonorianApp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "49",
+                        "endColumns": "12",
+                        "endOffsets": "3871"
+                    },
+                    "to": {
+                        "startLines": "35",
+                        "startColumns": "4",
+                        "startOffsets": "2331",
+                        "endLines": "82",
+                        "endColumns": "12",
+                        "endOffsets": "6102"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\43e176b4f69ed51c2f71851e3bf2adfb\\transformed\\ui-maneuver-2.15.2\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "15,16,19,26,27,28,32,33,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "726,812,1061,1597,1679,1771,2097,2170,2234",
+                        "endColumns": "85,84,86,81,91,87,72,63,96",
+                        "endOffsets": "807,892,1143,1674,1766,1854,2165,2229,2326"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\357c606336a1ea4a17a4fe7dc8aae247\\transformed\\ui-maps-2.15.2\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "17,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "897,976",
+                        "endColumns": "78,84",
+                        "endOffsets": "971,1056"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\8b9bf5a2eb2ac0cf80e56c0f073fd35d\\transformed\\ui-resources-2.15.2\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,100,147,196,252,303,363,412,459,513,562,618",
+                        "endColumns": "44,46,48,55,50,59,48,46,53,48,55,46",
+                        "endOffsets": "95,142,191,247,298,358,407,454,508,557,613,660"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\9a40e69b0e636a3fa2199099fbd159e6\\transformed\\appcompat-1.7.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "84,85,86,87,88,89,90,117",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "6190,6260,6344,6428,6524,6626,6728,9710",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "6255,6339,6423,6519,6621,6723,6817,9794"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\da604e18bd9a0d6254a5831f74414a8b\\transformed\\ui-speedlimit-2.15.2\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "14,20,21,22,23,24,25",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "665,1148,1217,1282,1360,1441,1525",
+                        "endColumns": "60,68,64,77,80,83,71",
+                        "endOffsets": "721,1212,1277,1355,1436,1520,1592"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\ad45d774cb84ea1dc41bc8951c5d7da1\\transformed\\mapbox-search-android-ui-1.0.0-rc.6\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "83",
+                        "startColumns": "4",
+                        "startOffsets": "6107",
+                        "endColumns": "82",
+                        "endOffsets": "6185"
                     }
                 }
             ]

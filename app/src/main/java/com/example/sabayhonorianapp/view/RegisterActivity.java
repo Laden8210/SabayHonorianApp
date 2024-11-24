@@ -1,5 +1,7 @@
 package com.example.sabayhonorianapp.view;
 
+import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +22,7 @@ import com.example.sabayhonorianapp.util.Messenger;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.Calendar;
 import java.util.Date;
 
 public class RegisterActivity extends AppCompatActivity {
@@ -69,7 +72,22 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void datePickerAction(View view) {
+        final Calendar calendar = Calendar.getInstance();
+        int year = calendar.get(Calendar.YEAR);
+        int month = calendar.get(Calendar.MONTH);
+        int day = calendar.get(Calendar.DAY_OF_MONTH);
+
+        DatePickerDialog datePickerDialog = new DatePickerDialog(this,
+                (view1, selectedYear, selectedMonth, selectedDay) -> {
+                    calendar.set(selectedYear, selectedMonth, selectedDay);
+                    String firebaseFormattedDate = new java.text.SimpleDateFormat("yyyy-MM-dd")
+                            .format(calendar.getTime());
+                    tilBirtDate.getEditText().setText(firebaseFormattedDate);
+                }, year, month, day);
+
+        datePickerDialog.show();
     }
+
 
     private void registerAction(View view) {
 
@@ -89,6 +107,8 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onSuccess(Object result) {
                 Messenger.showAlertDialog(RegisterActivity.this, "Register", "User Account has been created!", "Ok").show();
+                startActivity(new Intent(RegisterActivity.this, HeroActivity.class));
+                finish();
             }
 
             @Override
