@@ -1,40 +1,28 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-67:12
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:1-70:12
 MERGED from [androidx.navigation:navigation-common:2.8.1] C:\Users\user\.gradle\caches\8.9\transforms\84afdc8405f68a254956c9672ac4577f\transformed\navigation-common-2.8.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.8.1] C:\Users\user\.gradle\caches\8.9\transforms\3aaebc093dc5c364ace15c98264bd4e1\transformed\navigation-runtime-2.8.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment:2.8.1] C:\Users\user\.gradle\caches\8.9\transforms\731caf6c2b13fe0f941d15bd8f7fbf6a\transformed\navigation-fragment-2.8.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.8.1] C:\Users\user\.gradle\caches\8.9\transforms\99a4a1980d00f3cdd9b06e231ca4a57b\transformed\navigation-ui-2.8.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.mapbox.search:mapbox-search-android-ui:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\ad45d774cb84ea1dc41bc8951c5d7da1\transformed\mapbox-search-android-ui-1.0.0-rc.6\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:android:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\b76259dbe04b1f7453bdfd5cdd26fba5\transformed\android-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:ui-maps:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\357c606336a1ea4a17a4fe7dc8aae247\transformed\ui-maps-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:ui-maneuver:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\43e176b4f69ed51c2f71851e3bf2adfb\transformed\ui-maneuver-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:ui-shields:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\2e0da8f0c8f6405bbec82472537ba547\transformed\ui-shields-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:ui-status:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\118cc4731b82e03e96301d105d950391\transformed\ui-status-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:android:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\748c959462994c38befd63b741aac3a0\transformed\android-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-maps:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\5851f102b028f3f3df90e6cfec04a0c7\transformed\ui-maps-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-maneuver:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\f1b3dc024646f4bc316658bcf18cb052\transformed\ui-maneuver-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-shields:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\c3d983190b0348a49f6ea10a638943c9\transformed\ui-shields-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-status:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\d4fbd3b6f36c786a0d96f53300b16cba\transformed\ui-status-2.19.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\8.9\transforms\0af954194a2bbb69c73d75da01a2ca74\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.mapbox.navigation:ui-speedlimit:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\da604e18bd9a0d6254a5831f74414a8b\transformed\ui-speedlimit-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:ui-tripprogress:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\400f6aa721c48d63d6a649658cfae938\transformed\ui-tripprogress-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:ui-voice:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\d1758dfd295c29ef2f2d257db1923232\transformed\ui-voice-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:ui-base:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\c736fa304533c066268f80845dd6013c\transformed\ui-base-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:ui-resources:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\8b9bf5a2eb2ac0cf80e56c0f073fd35d\transformed\ui-resources-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-speedlimit:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\5ef3e2a2f867931d7df394098699b060\transformed\ui-speedlimit-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-tripprogress:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\b501a367dd95adbab50030aef0cb5317\transformed\ui-tripprogress-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-voice:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\dbe1dd891e74d1f91b3f9fb7d5c4e73d\transformed\ui-voice-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-base:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\8ca02bb91c36b5f447d1ee2301b1c6f2\transformed\ui-base-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-resources:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\dc68cca553e61f3ecd54ce54d99a7456\transformed\ui-resources-2.19.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\8.9\transforms\01f9baa033049f6be3fb9d3c7ae51d06\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.shuhart:stepview:1.5.1] C:\Users\user\.gradle\caches\8.9\transforms\0f5433dd194e5cdf8cf018ae53ab9837\transformed\stepview-1.5.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\a06263827c0bfdf322f8aa1090524d43\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.mapbox.maps:android:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\2a3928396158890c5c5ac3d84437c871\transformed\android-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.plugin:maps-annotation:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\671109f0dec05f2c9d66672cb56939ee\transformed\maps-annotation-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.extension:maps-localization:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\fffdb0f9446a931786de1be810196262\transformed\maps-localization-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.extension:maps-style:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\706497d16d54a827899515beef2cca39\transformed\maps-style-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.plugin:maps-logo:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\7280c92c883aeb065db28641b60c7e89\transformed\maps-logo-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.plugin:maps-compass:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\373869a3f84b2a398595f8c8ad61a036\transformed\maps-compass-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.plugin:maps-gestures:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\93395f6b945e80fa221a43bfcceece78\transformed\maps-gestures-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.plugin:maps-attribution:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\1e017b6ef2fdb1c068198d95c0b4c778\transformed\maps-attribution-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.plugin:maps-viewport:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\6c759083afa6beb5e9b085af2e8e4e1a\transformed\maps-viewport-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\e096e2ee919083930110c62f3e53a8e0\transformed\maps-locationcomponent-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.plugin:maps-scalebar:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\631add541a06554b8d1af4aa1dfdb05a\transformed\maps-scalebar-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.plugin:maps-overlay:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\6ad1fa74360f1d33f5b09917fdd4a61c\transformed\maps-overlay-10.16.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.mapbox.search:autofill:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\48be657e0d2ca034a3c39e206895352a\transformed\autofill-1.0.0-rc.6\AndroidManifest.xml:2:1-9:12
 MERGED from [com.mapbox.search:place-autocomplete:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\cee246247f9c41e20affc051527fe9e2\transformed\place-autocomplete-1.0.0-rc.6\AndroidManifest.xml:2:1-9:12
 MERGED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\83ec03f73cb4f60e5eb763048334bf0e\transformed\mapbox-search-android-1.0.0-rc.6\AndroidManifest.xml:2:1-24:12
@@ -42,13 +30,25 @@ MERGED from [com.mapbox.search:offline:1.0.0-rc.6] C:\Users\user\.gradle\caches\
 MERGED from [com.mapbox.search:base:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\8ad213fa38ddb6c619a762d00ff61d1a\transformed\base-1.0.0-rc.6\AndroidManifest.xml:2:1-24:12
 MERGED from [com.mapbox.search:mapbox-search-android-common:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\a1117663ef6c20b7a9a4559bcf1149d4\transformed\mapbox-search-android-common-1.0.0-rc.6\AndroidManifest.xml:2:1-9:12
 MERGED from [com.mapbox.search:mapbox-search-android-native:0.70.0] C:\Users\user\.gradle\caches\8.9\transforms\bb70d93eab95119739f48b462572efa9\transformed\mapbox-search-android-native-0.70.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:android:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\d7034268abbce30ed6cb2d480fa9e60e\transformed\android-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-annotation:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\ac9ba4a5ef1fe7f89f6b34a35bf5ead1\transformed\maps-annotation-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-localization:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\5e5370a183e4fab802a0ff4895453c11\transformed\maps-localization-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-style:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\8463fc9d928db29bb051ad957d94c37c\transformed\maps-style-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-logo:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\056d2f5be98e775c6b253eda94eaa5d8\transformed\maps-logo-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-compass:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\311a6c97f14947df1a54d5f0d8ea41bc\transformed\maps-compass-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-gestures:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\228d42a7deac755ba68033999546f021\transformed\maps-gestures-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-attribution:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\622026134371aeea1363b3c73b5c6ce9\transformed\maps-attribution-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-viewport:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\6f3da3458c631d8a590c228df5299c9b\transformed\maps-viewport-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\736212939072588b16b8d209a0e95d5e\transformed\maps-locationcomponent-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-scalebar:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\b9f276ff1e89d65d6215e95effffb1fe\transformed\maps-scalebar-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-overlay:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\714ee8c448d1381cf0543cd063aae435\transformed\maps-overlay-10.16.6\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\9a40e69b0e636a3fa2199099fbd159e6\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\caches\8.9\transforms\4c0d5d310d9c0c15b13d35515bd36d09\transformed\firebase-auth-23.0.0\AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\user\.gradle\caches\8.9\transforms\d33d139e3d20b94c7c5b801277e8850c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:17:1-44:12
 MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\user\.gradle\caches\8.9\transforms\fa3b16728f31c830d4390385a7fe7209\transformed\glide-4.16.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\fc8188d10d279b2a1d9f836162d6a98c\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.mapbox.navigation:copilot:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\bb0845874ad45ca413f86acef49b7457\transformed\copilot-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:2:1-33:12
+MERGED from [com.mapbox.navigation:copilot:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\7260ddb3adc5f52fa1a8c37fb6569d35\transformed\copilot-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:2:1-34:12
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\user\.gradle\caches\8.9\transforms\fe158c1ada99947883e4a79a3d8f770a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\user\.gradle\caches\8.9\transforms\77c56375c3dce3625f7d6aaeb99ba03c\transformed\play-services-location-21.3.0\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\8.9\transforms\b6e088bb2d08448ebc71b1c957dbee7f\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:2:1-26:12
@@ -69,13 +69,11 @@ MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\user
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\user\.gradle\caches\8.9\transforms\b981243b9d9450f0bb9fe25e6219235a\transformed\play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\user\.gradle\caches\8.9\transforms\0c97dfa5bdf5a13bb36a41ce66b8b9ee\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\user\.gradle\caches\8.9\transforms\c5e07147c0b25bab8708fc07dab9207c\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.mapbox.plugin:maps-animation:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b06f4e71c6bdcf4a1db4be5241cbdab9\transformed\maps-animation-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\8670058c9498fd6ecbf334ede77ec96d\transformed\maps-lifecycle-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:router:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\7931e2c05cd2ec2e0984fb6bc7963bc2\transformed\router-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:notification:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\c5d51033fd022bd71938243e60fb23ee\transformed\notification-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:navigator:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5bc0677aaf703f711b2b101591d5c464\transformed\navigator-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:metrics:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\0fa340f0588b5dd501252d9abdca9d54\transformed\metrics-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:base:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\3a53f430c8e35b2534fdde32a95148b5\transformed\base-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:router:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\a2a04cf38c8f03e1d9f4da09b59e6102\transformed\router-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:notification:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\52fd9a5b07204f041dc1ad54bf0368ae\transformed\notification-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:navigator:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\1e2e85c7af330241ac96acb75b7d965c\transformed\navigator-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:metrics:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\287c994a21221d9ba5881da01b03c319\transformed\metrics-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:base:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\faacd355d05aa745e51aeed08900f6c6\transformed\base-2.19.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\user\.gradle\caches\8.9\transforms\3c466e5cfcc8d0eb566eff20f8f1d44f\transformed\activity-ktx-1.9.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\user\.gradle\caches\8.9\transforms\a35065d84db351ea3794ba8c804bd5c5\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\user\.gradle\caches\8.9\transforms\c5dfe82cf5e6986085f94b121b37ec13\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
@@ -86,8 +84,8 @@ MERGED from [androidx.transition:transition:1.5.0] C:\Users\user\.gradle\caches\
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\9934b077f5de6270a68e957477553471\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\da14c97f83bb1988582061679fc618b0\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\2b9e1ffb4775f341da822c942b807a8c\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\17724c907576fd0a54b90a25f36b2624\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\fcb658eeb1865214751954e40c7b3f25\transformed\work-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:17:1-145:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\2cb8be75dff82273fa1b25c240e22476\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\179f68f8c133ecb4c103f4adac76988b\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\0ad5f4c2c2becd7831dc73a2378774fc\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
@@ -95,7 +93,9 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\c
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\842db2cd642e41d8fde4282a0f668bdb\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\4e15b8fdea79b285490117a256e51458\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\2760b85e36378f052d8d610a68e352b2\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:2:1-26:12
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.mapbox.plugin:maps-animation:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\8c663b3273fecf9a547083edfa7ef0dd\transformed\maps-animation-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\0475333893552716681caf7f061c086d\transformed\maps-lifecycle-10.16.6\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\user\.gradle\caches\8.9\transforms\a7b9c6421f8ce9540e73a84c2a1f7d12\transformed\core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\user\.gradle\caches\8.9\transforms\ef265c14dd84cdeab60e11511e707541\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\user\.gradle\caches\8.9\transforms\7adbc512dd5e52a21d04d10d6ee4795f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -106,14 +106,13 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\8.
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\user\.gradle\caches\8.9\transforms\80d23072bea4ef8069f848b179c616d4\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\user\.gradle\caches\8.9\transforms\d73be2d670165c455de80e670fbeef0b\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\47d538334bd346b976ff81529f3a9c7b\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
-MERGED from [com.mapbox.navigation:ui-utils:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\d54ed7783d2884effef8305d2b3c3404\transformed\ui-utils-2.15.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.navigation:utils:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\61774a71d8e148442c7e57884b7a8fff\transformed\utils-2.15.2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.mapbox.common:okhttp:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\6a342fc90a482771423b1446d82cbccf\transformed\okhttp-23.8.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.module:maps-telemetry:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\1bb075bafcd79594d604e70d5615d473\transformed\maps-telemetry-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.maps:base:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\5de7909fccdf1c92ddde56d7455c82bb\transformed\base-10.16.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:2:1-33:12
-MERGED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:2:1-40:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\user\.gradle\caches\8.9\transforms\39986e527d392a822cfc9dae4d390c4c\transformed\mapbox-android-gestures-0.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-utils:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\49b2a6e331554c5958930676dab28ec9\transformed\ui-utils-2.19.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:utils:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\0c63f07a9b7bbf20dc3e45e82101409b\transformed\utils-2.19.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.common:okhttp:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\7109cda7202f28c489c2ab08adb3faf3\transformed\okhttp-23.9.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.module:maps-telemetry:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\79e693f4bf7da639477060f03dfd4f25\transformed\maps-telemetry-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:base:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\726eaf707f058280300b2e581f44948f\transformed\base-10.16.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:2:1-33:12
+MERGED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:2:1-40:12
 MERGED from [androidx.core:core:1.15.0] C:\Users\user\.gradle\caches\8.9\transforms\4266edbe6d95669ad4503469acf307ed\transformed\core-1.15.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\b4cacd5d924823f6e219bdcde83670b0\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\07c23e444cf54fa003df1cb9f44d68d5\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
@@ -129,6 +128,7 @@ MERGED from [com.mapbox.common:logger:0.8.0] C:\Users\user\.gradle\caches\8.9\tr
 MERGED from [com.mapbox.common:loader:0.8.0] C:\Users\user\.gradle\caches\8.9\transforms\6685c81ae3ad101bc1d59dc9c0e64b17\transformed\loader-0.8.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.mapbox.base:common:0.8.0] C:\Users\user\.gradle\caches\8.9\transforms\2714459018640c02925fcc4b996894a4\transformed\common-0.8.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\user\.gradle\caches\8.9\transforms\18cc4088ba2945886a222ea9bbf8a6e2\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.9.1] C:\Users\user\.gradle\caches\8.9\transforms\9981795df40e3693fa15e2fc7dbed826\transformed\mapbox-android-gestures-0.9.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\e7b47952826e69bd4501a97c9534ac2d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\bdc099879513f4e0d2288fa3a0970650\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f5233ec364fcacfcee2a4ad0496256ec\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -163,14 +163,14 @@ MERGED from [com.caverock:androidsvg-aar:1.4] C:\Users\user\.gradle\caches\8.9\t
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:5:5-79
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:11:5-79
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:6:5-81
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:10:5-81
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:10:5-81
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:10:5-81
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:10:5-81
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.INTERNET
@@ -183,18 +183,18 @@ MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\cac
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\caches\8.9\transforms\4c0d5d310d9c0c15b13d35515bd36d09\transformed\firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\user\.gradle\caches\8.9\transforms\d33d139e3d20b94c7c5b801277e8850c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\user\.gradle\caches\8.9\transforms\d33d139e3d20b94c7c5b801277e8850c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:24:5-67
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:14:5-67
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:14:5-67
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:15:5-67
 MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\8.9\transforms\b6e088bb2d08448ebc71b1c957dbee7f\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\8.9\transforms\b6e088bb2d08448ebc71b1c957dbee7f\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\user\.gradle\caches\8.9\transforms\7effdb78636f2de32bc2910453bca0fd\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\user\.gradle\caches\8.9\transforms\7effdb78636f2de32bc2910453bca0fd\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\user\.gradle\caches\8.9\transforms\a391883253a796beaa567da26e2dd9cd\transformed\firebase-storage-21.0.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\user\.gradle\caches\8.9\transforms\a391883253a796beaa567da26e2dd9cd\transformed\firebase-storage-21.0.0\AndroidManifest.xml:24:5-67
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:17:5-67
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:17:5-67
-MERGED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:10:5-67
-MERGED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:10:5-67
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:10:5-67
+MERGED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:10:5-67
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:7:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
@@ -202,8 +202,8 @@ ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\And
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:8:22-77
 application
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:10:5-65:19
-INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:10:5-65:19
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:10:5-68:19
+INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:10:5-68:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\8.9\transforms\0af954194a2bbb69c73d75da01a2ca74\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\8.9\transforms\0af954194a2bbb69c73d75da01a2ca74\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\8.9\transforms\01f9baa033049f6be3fb9d3c7ae51d06\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -216,8 +216,8 @@ MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\cac
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\caches\8.9\transforms\4c0d5d310d9c0c15b13d35515bd36d09\transformed\firebase-auth-23.0.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\user\.gradle\caches\8.9\transforms\d33d139e3d20b94c7c5b801277e8850c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\user\.gradle\caches\8.9\transforms\d33d139e3d20b94c7c5b801277e8850c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:36:5-42:19
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:17:5-31:19
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:17:5-31:19
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:18:5-32:19
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:18:5-32:19
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\user\.gradle\caches\8.9\transforms\77c56375c3dce3625f7d6aaeb99ba03c\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\user\.gradle\caches\8.9\transforms\77c56375c3dce3625f7d6aaeb99ba03c\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
 MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\8.9\transforms\b6e088bb2d08448ebc71b1c957dbee7f\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:13:5-24:19
@@ -248,18 +248,18 @@ MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\user\.gr
 MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\user\.gradle\caches\8.9\transforms\c5e07147c0b25bab8708fc07dab9207c\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\5e49da3af879b7fbb4f768eaa31038e3\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\5e49da3af879b7fbb4f768eaa31038e3\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:30:5-143:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\3996b1e35a382b3ba125854bc915f2e9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\3996b1e35a382b3ba125854bc915f2e9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
-MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:12:5-24:19
-MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:12:5-24:19
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:12:5-24:19
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:12:5-24:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\47d538334bd346b976ff81529f3a9c7b\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\47d538334bd346b976ff81529f3a9c7b\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:21:5-31:19
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:21:5-31:19
-MERGED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:13:5-38:19
-MERGED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:13:5-38:19
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:13:5-38:19
+MERGED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:13:5-38:19
 MERGED from [androidx.core:core:1.15.0] C:\Users\user\.gradle\caches\8.9\transforms\4266edbe6d95669ad4503469acf307ed\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.15.0] C:\Users\user\.gradle\caches\8.9\transforms\4266edbe6d95669ad4503469acf307ed\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\user\.gradle\caches\8.9\transforms\2e24d7e876849d941378774e7dcb7dd4\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
@@ -296,94 +296,100 @@ MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\user\.gradle\caches\8.9\
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:18:9-54
 	android:dataExtractionRules
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:12:9-65
-activity#com.example.sabayhonorianapp.view.DisplayPaymentActivity
+activity#com.example.sabayhonorianapp.view.AdminActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:21:13-56
-activity#com.example.sabayhonorianapp.view.CurrentBookingRideActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:21:13-47
+activity#com.example.sabayhonorianapp.view.DisplayPaymentActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:24:13-60
-activity#com.example.sabayhonorianapp.view.RideNavigationRide
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:24:13-56
+activity#com.example.sabayhonorianapp.view.CurrentBookingRideActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:27:13-52
-activity#com.example.sabayhonorianapp.MapActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:27:13-60
+activity#com.example.sabayhonorianapp.view.RideNavigationRide
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:30:13-40
-activity#com.example.sabayhonorianapp.view.CreateRideActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:30:13-52
+activity#com.example.sabayhonorianapp.MapActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:33:13-52
-activity#com.example.sabayhonorianapp.view.ViewPublishRideActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:33:13-40
+activity#com.example.sabayhonorianapp.view.CreateRideActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:36:13-57
-activity#com.example.sabayhonorianapp.view.RegisterActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:36:13-52
+activity#com.example.sabayhonorianapp.view.ViewPublishRideActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:39:13-50
-activity#com.example.sabayhonorianapp.view.ConfirmedRideActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:39:13-57
+activity#com.example.sabayhonorianapp.view.RegisterActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:42:13-55
-activity#com.example.sabayhonorianapp.view.RideDetailActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:42:13-50
+activity#com.example.sabayhonorianapp.view.ConfirmedRideActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:45:13-52
-activity#com.example.sabayhonorianapp.view.ViewMessage
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:45:13-55
+activity#com.example.sabayhonorianapp.view.RideDetailActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:48:13-45
-activity#com.example.sabayhonorianapp.view.HeroActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:48:13-52
+activity#com.example.sabayhonorianapp.view.ViewMessage
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:51:13-46
-activity#com.example.sabayhonorianapp.view.LoginActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:51:13-45
+activity#com.example.sabayhonorianapp.view.HeroActivity
 ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:54:13-47
-activity#com.example.sabayhonorianapp.MainActivity
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:56:9-64:20
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:54:13-46
+activity#com.example.sabayhonorianapp.view.LoginActivity
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:56:9-58:40
 	android:exported
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:58:13-36
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:57:13-41
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:57:13-47
+activity#com.example.sabayhonorianapp.MainActivity
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:59:9-67:20
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:60:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:59:13-63:29
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:62:13-66:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:60:17-69
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:63:17-69
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:60:25-66
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:63:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:62:17-77
+ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:65:17-77
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:62:27-74
+		ADDED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml:65:27-74
 uses-sdk
 INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\user\AndroidStudioProjects\SabayHonorianApp\app\src\main\AndroidManifest.xml
@@ -398,58 +404,34 @@ MERGED from [androidx.navigation:navigation-ui:2.8.1] C:\Users\user\.gradle\cach
 MERGED from [androidx.navigation:navigation-ui:2.8.1] C:\Users\user\.gradle\caches\8.9\transforms\99a4a1980d00f3cdd9b06e231ca4a57b\transformed\navigation-ui-2.8.1\AndroidManifest.xml:20:5-44
 MERGED from [com.mapbox.search:mapbox-search-android-ui:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\ad45d774cb84ea1dc41bc8951c5d7da1\transformed\mapbox-search-android-ui-1.0.0-rc.6\AndroidManifest.xml:5:5-7:41
 MERGED from [com.mapbox.search:mapbox-search-android-ui:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\ad45d774cb84ea1dc41bc8951c5d7da1\transformed\mapbox-search-android-ui-1.0.0-rc.6\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:android:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\b76259dbe04b1f7453bdfd5cdd26fba5\transformed\android-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:android:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\b76259dbe04b1f7453bdfd5cdd26fba5\transformed\android-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-maps:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\357c606336a1ea4a17a4fe7dc8aae247\transformed\ui-maps-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-maps:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\357c606336a1ea4a17a4fe7dc8aae247\transformed\ui-maps-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-maneuver:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\43e176b4f69ed51c2f71851e3bf2adfb\transformed\ui-maneuver-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-maneuver:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\43e176b4f69ed51c2f71851e3bf2adfb\transformed\ui-maneuver-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-shields:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\2e0da8f0c8f6405bbec82472537ba547\transformed\ui-shields-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-shields:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\2e0da8f0c8f6405bbec82472537ba547\transformed\ui-shields-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-status:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\118cc4731b82e03e96301d105d950391\transformed\ui-status-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-status:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\118cc4731b82e03e96301d105d950391\transformed\ui-status-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:android:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\748c959462994c38befd63b741aac3a0\transformed\android-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:android:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\748c959462994c38befd63b741aac3a0\transformed\android-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maps:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\5851f102b028f3f3df90e6cfec04a0c7\transformed\ui-maps-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maps:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\5851f102b028f3f3df90e6cfec04a0c7\transformed\ui-maps-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maneuver:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\f1b3dc024646f4bc316658bcf18cb052\transformed\ui-maneuver-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maneuver:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\f1b3dc024646f4bc316658bcf18cb052\transformed\ui-maneuver-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-shields:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\c3d983190b0348a49f6ea10a638943c9\transformed\ui-shields-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-shields:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\c3d983190b0348a49f6ea10a638943c9\transformed\ui-shields-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-status:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\d4fbd3b6f36c786a0d96f53300b16cba\transformed\ui-status-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-status:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\d4fbd3b6f36c786a0d96f53300b16cba\transformed\ui-status-2.19.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\8.9\transforms\0af954194a2bbb69c73d75da01a2ca74\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\8.9\transforms\0af954194a2bbb69c73d75da01a2ca74\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
-MERGED from [com.mapbox.navigation:ui-speedlimit:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\da604e18bd9a0d6254a5831f74414a8b\transformed\ui-speedlimit-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-speedlimit:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\da604e18bd9a0d6254a5831f74414a8b\transformed\ui-speedlimit-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-tripprogress:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\400f6aa721c48d63d6a649658cfae938\transformed\ui-tripprogress-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-tripprogress:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\400f6aa721c48d63d6a649658cfae938\transformed\ui-tripprogress-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-voice:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\d1758dfd295c29ef2f2d257db1923232\transformed\ui-voice-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-voice:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\d1758dfd295c29ef2f2d257db1923232\transformed\ui-voice-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-base:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\c736fa304533c066268f80845dd6013c\transformed\ui-base-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-base:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\c736fa304533c066268f80845dd6013c\transformed\ui-base-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-resources:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\8b9bf5a2eb2ac0cf80e56c0f073fd35d\transformed\ui-resources-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-resources:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\8b9bf5a2eb2ac0cf80e56c0f073fd35d\transformed\ui-resources-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-speedlimit:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\5ef3e2a2f867931d7df394098699b060\transformed\ui-speedlimit-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-speedlimit:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\5ef3e2a2f867931d7df394098699b060\transformed\ui-speedlimit-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-tripprogress:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\b501a367dd95adbab50030aef0cb5317\transformed\ui-tripprogress-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-tripprogress:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\b501a367dd95adbab50030aef0cb5317\transformed\ui-tripprogress-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-voice:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\dbe1dd891e74d1f91b3f9fb7d5c4e73d\transformed\ui-voice-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-voice:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\dbe1dd891e74d1f91b3f9fb7d5c4e73d\transformed\ui-voice-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-base:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\8ca02bb91c36b5f447d1ee2301b1c6f2\transformed\ui-base-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-base:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\8ca02bb91c36b5f447d1ee2301b1c6f2\transformed\ui-base-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-resources:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\dc68cca553e61f3ecd54ce54d99a7456\transformed\ui-resources-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-resources:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\dc68cca553e61f3ecd54ce54d99a7456\transformed\ui-resources-2.19.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\8.9\transforms\01f9baa033049f6be3fb9d3c7ae51d06\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\8.9\transforms\01f9baa033049f6be3fb9d3c7ae51d06\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.shuhart:stepview:1.5.1] C:\Users\user\.gradle\caches\8.9\transforms\0f5433dd194e5cdf8cf018ae53ab9837\transformed\stepview-1.5.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.shuhart:stepview:1.5.1] C:\Users\user\.gradle\caches\8.9\transforms\0f5433dd194e5cdf8cf018ae53ab9837\transformed\stepview-1.5.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\a06263827c0bfdf322f8aa1090524d43\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\a06263827c0bfdf322f8aa1090524d43\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
-MERGED from [com.mapbox.maps:android:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\2a3928396158890c5c5ac3d84437c871\transformed\android-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.maps:android:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\2a3928396158890c5c5ac3d84437c871\transformed\android-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-annotation:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\671109f0dec05f2c9d66672cb56939ee\transformed\maps-annotation-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-annotation:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\671109f0dec05f2c9d66672cb56939ee\transformed\maps-annotation-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.extension:maps-localization:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\fffdb0f9446a931786de1be810196262\transformed\maps-localization-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.extension:maps-localization:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\fffdb0f9446a931786de1be810196262\transformed\maps-localization-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.extension:maps-style:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\706497d16d54a827899515beef2cca39\transformed\maps-style-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.extension:maps-style:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\706497d16d54a827899515beef2cca39\transformed\maps-style-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-logo:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\7280c92c883aeb065db28641b60c7e89\transformed\maps-logo-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-logo:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\7280c92c883aeb065db28641b60c7e89\transformed\maps-logo-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-compass:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\373869a3f84b2a398595f8c8ad61a036\transformed\maps-compass-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-compass:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\373869a3f84b2a398595f8c8ad61a036\transformed\maps-compass-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-gestures:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\93395f6b945e80fa221a43bfcceece78\transformed\maps-gestures-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-gestures:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\93395f6b945e80fa221a43bfcceece78\transformed\maps-gestures-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-attribution:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\1e017b6ef2fdb1c068198d95c0b4c778\transformed\maps-attribution-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-attribution:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\1e017b6ef2fdb1c068198d95c0b4c778\transformed\maps-attribution-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-viewport:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\6c759083afa6beb5e9b085af2e8e4e1a\transformed\maps-viewport-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-viewport:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\6c759083afa6beb5e9b085af2e8e4e1a\transformed\maps-viewport-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\e096e2ee919083930110c62f3e53a8e0\transformed\maps-locationcomponent-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\e096e2ee919083930110c62f3e53a8e0\transformed\maps-locationcomponent-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-scalebar:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\631add541a06554b8d1af4aa1dfdb05a\transformed\maps-scalebar-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-scalebar:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\631add541a06554b8d1af4aa1dfdb05a\transformed\maps-scalebar-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-overlay:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\6ad1fa74360f1d33f5b09917fdd4a61c\transformed\maps-overlay-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-overlay:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\6ad1fa74360f1d33f5b09917fdd4a61c\transformed\maps-overlay-10.16.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.mapbox.search:autofill:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\48be657e0d2ca034a3c39e206895352a\transformed\autofill-1.0.0-rc.6\AndroidManifest.xml:5:5-7:41
 MERGED from [com.mapbox.search:autofill:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\48be657e0d2ca034a3c39e206895352a\transformed\autofill-1.0.0-rc.6\AndroidManifest.xml:5:5-7:41
 MERGED from [com.mapbox.search:place-autocomplete:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\cee246247f9c41e20affc051527fe9e2\transformed\place-autocomplete-1.0.0-rc.6\AndroidManifest.xml:5:5-7:41
@@ -464,6 +446,30 @@ MERGED from [com.mapbox.search:mapbox-search-android-common:1.0.0-rc.6] C:\Users
 MERGED from [com.mapbox.search:mapbox-search-android-common:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\a1117663ef6c20b7a9a4559bcf1149d4\transformed\mapbox-search-android-common-1.0.0-rc.6\AndroidManifest.xml:5:5-7:41
 MERGED from [com.mapbox.search:mapbox-search-android-native:0.70.0] C:\Users\user\.gradle\caches\8.9\transforms\bb70d93eab95119739f48b462572efa9\transformed\mapbox-search-android-native-0.70.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.mapbox.search:mapbox-search-android-native:0.70.0] C:\Users\user\.gradle\caches\8.9\transforms\bb70d93eab95119739f48b462572efa9\transformed\mapbox-search-android-native-0.70.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\d7034268abbce30ed6cb2d480fa9e60e\transformed\android-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\d7034268abbce30ed6cb2d480fa9e60e\transformed\android-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\ac9ba4a5ef1fe7f89f6b34a35bf5ead1\transformed\maps-annotation-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\ac9ba4a5ef1fe7f89f6b34a35bf5ead1\transformed\maps-annotation-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\5e5370a183e4fab802a0ff4895453c11\transformed\maps-localization-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\5e5370a183e4fab802a0ff4895453c11\transformed\maps-localization-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\8463fc9d928db29bb051ad957d94c37c\transformed\maps-style-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\8463fc9d928db29bb051ad957d94c37c\transformed\maps-style-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\056d2f5be98e775c6b253eda94eaa5d8\transformed\maps-logo-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\056d2f5be98e775c6b253eda94eaa5d8\transformed\maps-logo-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\311a6c97f14947df1a54d5f0d8ea41bc\transformed\maps-compass-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\311a6c97f14947df1a54d5f0d8ea41bc\transformed\maps-compass-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\228d42a7deac755ba68033999546f021\transformed\maps-gestures-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\228d42a7deac755ba68033999546f021\transformed\maps-gestures-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\622026134371aeea1363b3c73b5c6ce9\transformed\maps-attribution-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\622026134371aeea1363b3c73b5c6ce9\transformed\maps-attribution-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\6f3da3458c631d8a590c228df5299c9b\transformed\maps-viewport-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\6f3da3458c631d8a590c228df5299c9b\transformed\maps-viewport-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\736212939072588b16b8d209a0e95d5e\transformed\maps-locationcomponent-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\736212939072588b16b8d209a0e95d5e\transformed\maps-locationcomponent-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\b9f276ff1e89d65d6215e95effffb1fe\transformed\maps-scalebar-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\b9f276ff1e89d65d6215e95effffb1fe\transformed\maps-scalebar-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\714ee8c448d1381cf0543cd063aae435\transformed\maps-overlay-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\714ee8c448d1381cf0543cd063aae435\transformed\maps-overlay-10.16.6\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\9a40e69b0e636a3fa2199099fbd159e6\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\9a40e69b0e636a3fa2199099fbd159e6\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\caches\8.9\transforms\4c0d5d310d9c0c15b13d35515bd36d09\transformed\firebase-auth-23.0.0\AndroidManifest.xml:21:5-23:151
@@ -474,10 +480,10 @@ MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\user\.gradle\cache
 MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\user\.gradle\caches\8.9\transforms\fa3b16728f31c830d4390385a7fe7209\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\fc8188d10d279b2a1d9f836162d6a98c\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\fc8188d10d279b2a1d9f836162d6a98c\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.mapbox.navigation:copilot:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\bb0845874ad45ca413f86acef49b7457\transformed\copilot-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:copilot:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\bb0845874ad45ca413f86acef49b7457\transformed\copilot-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:6:5-8:41
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.navigation:copilot:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\7260ddb3adc5f52fa1a8c37fb6569d35\transformed\copilot-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:copilot:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\7260ddb3adc5f52fa1a8c37fb6569d35\transformed\copilot-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\user\.gradle\caches\8.9\transforms\fe158c1ada99947883e4a79a3d8f770a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\user\.gradle\caches\8.9\transforms\fe158c1ada99947883e4a79a3d8f770a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\user\.gradle\caches\8.9\transforms\77c56375c3dce3625f7d6aaeb99ba03c\transformed\play-services-location-21.3.0\AndroidManifest.xml:4:5-44
@@ -518,20 +524,16 @@ MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\use
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\user\.gradle\caches\8.9\transforms\0c97dfa5bdf5a13bb36a41ce66b8b9ee\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\user\.gradle\caches\8.9\transforms\c5e07147c0b25bab8708fc07dab9207c\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\user\.gradle\caches\8.9\transforms\c5e07147c0b25bab8708fc07dab9207c\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
-MERGED from [com.mapbox.plugin:maps-animation:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b06f4e71c6bdcf4a1db4be5241cbdab9\transformed\maps-animation-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-animation:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b06f4e71c6bdcf4a1db4be5241cbdab9\transformed\maps-animation-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\8670058c9498fd6ecbf334ede77ec96d\transformed\maps-lifecycle-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\8670058c9498fd6ecbf334ede77ec96d\transformed\maps-lifecycle-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:router:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\7931e2c05cd2ec2e0984fb6bc7963bc2\transformed\router-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:router:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\7931e2c05cd2ec2e0984fb6bc7963bc2\transformed\router-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:notification:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\c5d51033fd022bd71938243e60fb23ee\transformed\notification-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:notification:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\c5d51033fd022bd71938243e60fb23ee\transformed\notification-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:navigator:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5bc0677aaf703f711b2b101591d5c464\transformed\navigator-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:navigator:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5bc0677aaf703f711b2b101591d5c464\transformed\navigator-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:metrics:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\0fa340f0588b5dd501252d9abdca9d54\transformed\metrics-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:metrics:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\0fa340f0588b5dd501252d9abdca9d54\transformed\metrics-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:base:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\3a53f430c8e35b2534fdde32a95148b5\transformed\base-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:base:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\3a53f430c8e35b2534fdde32a95148b5\transformed\base-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:router:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\a2a04cf38c8f03e1d9f4da09b59e6102\transformed\router-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:router:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\a2a04cf38c8f03e1d9f4da09b59e6102\transformed\router-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:notification:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\52fd9a5b07204f041dc1ad54bf0368ae\transformed\notification-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:notification:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\52fd9a5b07204f041dc1ad54bf0368ae\transformed\notification-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:navigator:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\1e2e85c7af330241ac96acb75b7d965c\transformed\navigator-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:navigator:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\1e2e85c7af330241ac96acb75b7d965c\transformed\navigator-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:metrics:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\287c994a21221d9ba5881da01b03c319\transformed\metrics-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:metrics:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\287c994a21221d9ba5881da01b03c319\transformed\metrics-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:base:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\faacd355d05aa745e51aeed08900f6c6\transformed\base-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:base:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\faacd355d05aa745e51aeed08900f6c6\transformed\base-2.19.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\user\.gradle\caches\8.9\transforms\3c466e5cfcc8d0eb566eff20f8f1d44f\transformed\activity-ktx-1.9.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\user\.gradle\caches\8.9\transforms\3c466e5cfcc8d0eb566eff20f8f1d44f\transformed\activity-ktx-1.9.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\user\.gradle\caches\8.9\transforms\a35065d84db351ea3794ba8c804bd5c5\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
@@ -552,10 +554,10 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gra
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\da14c97f83bb1988582061679fc618b0\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\2b9e1ffb4775f341da822c942b807a8c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\2b9e1ffb4775f341da822c942b807a8c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\17724c907576fd0a54b90a25f36b2624\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\17724c907576fd0a54b90a25f36b2624\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\fcb658eeb1865214751954e40c7b3f25\transformed\work-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\fcb658eeb1865214751954e40c7b3f25\transformed\work-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\2cb8be75dff82273fa1b25c240e22476\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\2cb8be75dff82273fa1b25c240e22476\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\179f68f8c133ecb4c103f4adac76988b\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
@@ -570,8 +572,12 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\user\.gr
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\4e15b8fdea79b285490117a256e51458\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\2760b85e36378f052d8d610a68e352b2\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\2760b85e36378f052d8d610a68e352b2\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:6:5-8:41
-MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.plugin:maps-animation:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\8c663b3273fecf9a547083edfa7ef0dd\transformed\maps-animation-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-animation:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\8c663b3273fecf9a547083edfa7ef0dd\transformed\maps-animation-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\0475333893552716681caf7f061c086d\transformed\maps-lifecycle-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\0475333893552716681caf7f061c086d\transformed\maps-lifecycle-10.16.6\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\user\.gradle\caches\8.9\transforms\a7b9c6421f8ce9540e73a84c2a1f7d12\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\user\.gradle\caches\8.9\transforms\a7b9c6421f8ce9540e73a84c2a1f7d12\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\user\.gradle\caches\8.9\transforms\ef265c14dd84cdeab60e11511e707541\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
@@ -592,22 +598,20 @@ MERGED from [androidx.browser:browser:1.4.0] C:\Users\user\.gradle\caches\8.9\tr
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\user\.gradle\caches\8.9\transforms\d73be2d670165c455de80e670fbeef0b\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\47d538334bd346b976ff81529f3a9c7b\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\47d538334bd346b976ff81529f3a9c7b\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.mapbox.navigation:ui-utils:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\d54ed7783d2884effef8305d2b3c3404\transformed\ui-utils-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:ui-utils:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\d54ed7783d2884effef8305d2b3c3404\transformed\ui-utils-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:utils:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\61774a71d8e148442c7e57884b7a8fff\transformed\utils-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.navigation:utils:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\61774a71d8e148442c7e57884b7a8fff\transformed\utils-2.15.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.common:okhttp:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\6a342fc90a482771423b1446d82cbccf\transformed\okhttp-23.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.common:okhttp:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\6a342fc90a482771423b1446d82cbccf\transformed\okhttp-23.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.module:maps-telemetry:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\1bb075bafcd79594d604e70d5615d473\transformed\maps-telemetry-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.module:maps-telemetry:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\1bb075bafcd79594d604e70d5615d473\transformed\maps-telemetry-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.maps:base:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\5de7909fccdf1c92ddde56d7455c82bb\transformed\base-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.maps:base:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\5de7909fccdf1c92ddde56d7455c82bb\transformed\base-10.16.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\user\.gradle\caches\8.9\transforms\39986e527d392a822cfc9dae4d390c4c\transformed\mapbox-android-gestures-0.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\user\.gradle\caches\8.9\transforms\39986e527d392a822cfc9dae4d390c4c\transformed\mapbox-android-gestures-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-utils:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\49b2a6e331554c5958930676dab28ec9\transformed\ui-utils-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-utils:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\49b2a6e331554c5958930676dab28ec9\transformed\ui-utils-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:utils:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\0c63f07a9b7bbf20dc3e45e82101409b\transformed\utils-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:utils:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\0c63f07a9b7bbf20dc3e45e82101409b\transformed\utils-2.19.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:okhttp:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\7109cda7202f28c489c2ab08adb3faf3\transformed\okhttp-23.9.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:okhttp:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\7109cda7202f28c489c2ab08adb3faf3\transformed\okhttp-23.9.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\79e693f4bf7da639477060f03dfd4f25\transformed\maps-telemetry-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\79e693f4bf7da639477060f03dfd4f25\transformed\maps-telemetry-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\726eaf707f058280300b2e581f44948f\transformed\base-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\726eaf707f058280300b2e581f44948f\transformed\base-10.16.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.core:core:1.15.0] C:\Users\user\.gradle\caches\8.9\transforms\4266edbe6d95669ad4503469acf307ed\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.15.0] C:\Users\user\.gradle\caches\8.9\transforms\4266edbe6d95669ad4503469acf307ed\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\b4cacd5d924823f6e219bdcde83670b0\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
@@ -638,6 +642,8 @@ MERGED from [com.mapbox.base:common:0.8.0] C:\Users\user\.gradle\caches\8.9\tran
 MERGED from [com.mapbox.base:common:0.8.0] C:\Users\user\.gradle\caches\8.9\transforms\2714459018640c02925fcc4b996894a4\transformed\common-0.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\user\.gradle\caches\8.9\transforms\18cc4088ba2945886a222ea9bbf8a6e2\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\user\.gradle\caches\8.9\transforms\18cc4088ba2945886a222ea9bbf8a6e2\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.9.1] C:\Users\user\.gradle\caches\8.9\transforms\9981795df40e3693fa15e2fc7dbed826\transformed\mapbox-android-gestures-0.9.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.9.1] C:\Users\user\.gradle\caches\8.9\transforms\9981795df40e3693fa15e2fc7dbed826\transformed\mapbox-android-gestures-0.9.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\e7b47952826e69bd4501a97c9534ac2d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\e7b47952826e69bd4501a97c9534ac2d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\bdc099879513f4e0d2288fa3a0970650\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
@@ -692,20 +698,20 @@ provider#androidx.startup.InitializationProvider
 ADDED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\83ec03f73cb4f60e5eb763048334bf0e\transformed\mapbox-search-android-1.0.0-rc.6\AndroidManifest.xml:13:9-21:20
 MERGED from [com.mapbox.search:base:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\8ad213fa38ddb6c619a762d00ff61d1a\transformed\base-1.0.0-rc.6\AndroidManifest.xml:13:9-21:20
 MERGED from [com.mapbox.search:base:1.0.0-rc.6] C:\Users\user\.gradle\caches\8.9\transforms\8ad213fa38ddb6c619a762d00ff61d1a\transformed\base-1.0.0-rc.6\AndroidManifest.xml:13:9-21:20
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:18:9-26:20
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:18:9-26:20
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:19:9-27:20
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:19:9-27:20
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\5e49da3af879b7fbb4f768eaa31038e3\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\5e49da3af879b7fbb4f768eaa31038e3\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\3996b1e35a382b3ba125854bc915f2e9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\3996b1e35a382b3ba125854bc915f2e9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
-MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:13:9-23:20
-MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:13:9-23:20
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:22:9-30:20
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:22:9-30:20
-MERGED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:14:9-24:20
-MERGED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:14:9-24:20
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:13:9-23:20
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:13:9-23:20
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:22:9-30:20
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:22:9-30:20
+MERGED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:14:9-24:20
+MERGED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:14:9-24:20
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\bdc099879513f4e0d2288fa3a0970650\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\bdc099879513f4e0d2288fa3a0970650\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\8.9\transforms\c45d9cd4cd086fb4e8cb4f86dd51e91a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
@@ -734,22 +740,22 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\caches\8.9\transforms\4c0d5d310d9c0c15b13d35515bd36d09\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\user\.gradle\caches\8.9\transforms\d33d139e3d20b94c7c5b801277e8850c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\user\.gradle\caches\8.9\transforms\d33d139e3d20b94c7c5b801277e8850c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:5-79
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:15:5-79
-MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:15:5-79
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:16:5-79
+MERGED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:16:5-79
 MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\8.9\transforms\b6e088bb2d08448ebc71b1c957dbee7f\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\8.9\transforms\b6e088bb2d08448ebc71b1c957dbee7f\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:10:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\user\.gradle\caches\8.9\transforms\7effdb78636f2de32bc2910453bca0fd\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\user\.gradle\caches\8.9\transforms\7effdb78636f2de32bc2910453bca0fd\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
 MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\user\.gradle\caches\8.9\transforms\a391883253a796beaa567da26e2dd9cd\transformed\firebase-storage-21.0.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\user\.gradle\caches\8.9\transforms\a391883253a796beaa567da26e2dd9cd\transformed\firebase-storage-21.0.0\AndroidManifest.xml:23:5-79
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
-MERGED from [com.mapbox.navigation:utils:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\61774a71d8e148442c7e57884b7a8fff\transformed\utils-2.15.2\AndroidManifest.xml:9:5-79
-MERGED from [com.mapbox.navigation:utils:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\61774a71d8e148442c7e57884b7a8fff\transformed\utils-2.15.2\AndroidManifest.xml:9:5-79
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:18:5-79
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:18:5-79
-MERGED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:11:5-79
-MERGED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:11:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:26:5-79
+MERGED from [com.mapbox.navigation:utils:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\0c63f07a9b7bbf20dc3e45e82101409b\transformed\utils-2.19.0\AndroidManifest.xml:9:5-79
+MERGED from [com.mapbox.navigation:utils:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\0c63f07a9b7bbf20dc3e45e82101409b\transformed\utils-2.19.0\AndroidManifest.xml:9:5-79
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\user\.gradle\caches\8.9\transforms\c85255345d261182b160971d367a8f08\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\user\.gradle\caches\8.9\transforms\c85255345d261182b160971d367a8f08\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
 	android:name
@@ -832,8 +838,8 @@ ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\cach
 		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\caches\8.9\transforms\4c0d5d310d9c0c15b13d35515bd36d09\transformed\firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\user\.gradle\caches\8.9\transforms\d33d139e3d20b94c7c5b801277e8850c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:26:5-28:35
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:10:5-12:35
-MERGED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:10:5-12:35
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:10:5-12:35
+MERGED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:10:5-12:35
 	android:glEsVersion
 		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\user\.gradle\caches\8.9\transforms\d33d139e3d20b94c7c5b801277e8850c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:27:9-41
 	android:required
@@ -851,27 +857,31 @@ ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\user\.gra
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\user\.gradle\caches\8.9\transforms\d33d139e3d20b94c7c5b801277e8850c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:40:13-50
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:12:5-77
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:12:5-77
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
 	android:name
-		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:12:22-74
+		ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:12:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_LOCATION
+ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:13:5-86
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:13:22-83
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:13:5-77
+ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:14:5-77
 	android:name
-		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:13:22-74
+		ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:14:22-74
 meta-data#com.mapbox.navigation.core.internal.MapboxNavigationSDKInitializer
-ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:23:13-25:52
+ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:24:13-26:52
 	android:value
-		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:25:17-49
+		ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:26:17-49
 	android:name
-		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:24:17-98
+		ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:25:17-98
 service#com.mapbox.navigation.core.trip.service.NavigationNotificationService
-ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:28:9-30:56
+ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:29:9-31:56
 	android:foregroundServiceType
-		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:30:13-53
+		ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:31:13-53
 	android:name
-		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\user\.gradle\caches\8.9\transforms\5f34adaebaff4130946462c889d25ce0\transformed\core-2.15.2\AndroidManifest.xml:29:13-97
+		ADDED from [com.mapbox.navigation:core:2.19.0] C:\Users\user\.gradle\caches\8.9\transforms\94362edf6b17aa3ff76540fb6073cf96\transformed\core-2.19.0\AndroidManifest.xml:30:13-97
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
 ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\8.9\transforms\b6e088bb2d08448ebc71b1c957dbee7f\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
 	android:value
@@ -1007,217 +1017,217 @@ ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\trans
 	android:name
 		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\5e49da3af879b7fbb4f768eaa31038e3\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:22-65
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:25:22-65
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:5-81
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:22-78
 meta-data#androidx.work.WorkManagerInitializer
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
 	android:value
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
 service#androidx.work.impl.background.systemalarm.SystemAlarmService
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:46:13-32
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:46:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
 service#androidx.work.impl.background.systemjob.SystemJobService
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
 	android:permission
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:53:13-32
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:53:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
 service#androidx.work.impl.foreground.SystemForegroundService
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:59:13-32
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:59:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
 receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:66:13-32
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:66:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:72:13-32
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:72:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
 intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:83:13-32
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:83:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
 intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
 action#android.intent.action.BATTERY_OKAY
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
 action#android.intent.action.BATTERY_LOW
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:94:13-32
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:94:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
 intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
 action#android.intent.action.DEVICE_STORAGE_LOW
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
 action#android.intent.action.DEVICE_STORAGE_OK
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:105:13-32
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:105:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
 receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:115:13-32
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:115:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
 action#android.intent.action.TIME_SET
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
 action#android.intent.action.TIMEZONE_CHANGED
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:127:13-32
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:127:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
 intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
 action#androidx.work.impl.background.systemalarm.UpdateProxies
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
 receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
 	android:permission
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:138:13-32
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:138:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
 intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
 action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
-ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
 	android:name
-		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\8.9\transforms\909c4ab6ec7b2bdeb89916d88c552e25\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\user\.gradle\caches\8.9\transforms\14e1e6d280e1d4a9008f439eab35a3b5\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\3996b1e35a382b3ba125854bc915f2e9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
 	android:value
@@ -1225,15 +1235,15 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\ca
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\8.9\transforms\3996b1e35a382b3ba125854bc915f2e9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:10:5-79
+ADDED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:10:22-76
+		ADDED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:10:22-76
 meta-data#com.mapbox.navigator.MapboxNavigationNativeInitializer
-ADDED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:20:13-22:52
+ADDED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:20:13-22:52
 	android:value
-		ADDED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:22:17-49
+		ADDED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:22:17-49
 	android:name
-		ADDED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\user\.gradle\caches\8.9\transforms\cbeb59389897e19a79b4ae4d9b6f3361\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:21:17-86
+		ADDED from [com.mapbox.navigator:mapbox-navigation-native:203.0.0] C:\Users\user\.gradle\caches\8.9\transforms\f3db436d63b28788d75e311866e900b8\transformed\mapbox-navigation-native-203.0.0\AndroidManifest.xml:21:17-86
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\47d538334bd346b976ff81529f3a9c7b\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 	android:required
@@ -1247,49 +1257,49 @@ ADDED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\8.9\trans
 	android:name
 		ADDED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\47d538334bd346b976ff81529f3a9c7b\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 uses-feature#android.hardware.wifi
-ADDED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:13:5-15:36
+ADDED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:13:5-15:36
 MERGED from [org.osmdroid:osmdroid-android:6.1.13] C:\Users\user\.gradle\caches\8.9\transforms\3a10b3404be1f046e644a81f7778c4ba\transformed\osmdroid-android-6.1.13\AndroidManifest.xml:23:5-25:36
 MERGED from [org.osmdroid:osmdroid-android:6.1.13] C:\Users\user\.gradle\caches\8.9\transforms\3a10b3404be1f046e644a81f7778c4ba\transformed\osmdroid-android-6.1.13\AndroidManifest.xml:23:5-25:36
 	android:required
-		ADDED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:15:9-33
+		ADDED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:15:9-33
 	android:name
-		ADDED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:14:9-45
+		ADDED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:14:9-45
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:19:5-76
+ADDED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:19:5-76
 	android:name
-		ADDED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:19:22-73
+		ADDED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:19:22-73
 meta-data#com.mapbox.maps.loader.MapboxMapsInitializer
-ADDED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:27:13-29:52
+ADDED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:27:13-29:52
 	android:value
-		ADDED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:29:17-49
+		ADDED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:29:17-49
 	android:name
-		ADDED from [com.mapbox.maps:android-core:10.16.0] C:\Users\user\.gradle\caches\8.9\transforms\b936f1dfeb9e629b40fd58ebfb3fc777\transformed\android-core-10.16.0\AndroidManifest.xml:28:17-76
+		ADDED from [com.mapbox.maps:android-core:10.16.6] C:\Users\user\.gradle\caches\8.9\transforms\afdb756416707d6374d7794d72545a1e\transformed\android-core-10.16.6\AndroidManifest.xml:28:17-76
 meta-data#com.mapbox.common.MapboxSDKCommonInitializer
-ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:21:13-23:52
+ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:21:13-23:52
 	android:value
-		ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:23:17-49
+		ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:23:17-49
 	android:name
-		ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:22:17-76
+		ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:22:17-76
 receiver#com.mapbox.common.location.LocationUpdatesReceiver
-ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:26:9-33:20
+ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:26:9-33:20
 	android:enabled
-		ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:28:13-35
+		ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:28:13-35
 	android:exported
-		ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:29:13-37
+		ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:27:13-78
+		ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:27:13-78
 intent-filter#action:name:com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
-ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:30:13-32:29
+ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:30:13-32:29
 action#com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
-ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:31:17-125
+ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:31:17-125
 	android:name
-		ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:31:25-122
+		ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:31:25-122
 service#com.mapbox.common.LifecycleService
-ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:35:9-37:40
+ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:35:9-37:40
 	android:exported
-		ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:37:13-37
+		ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from [com.mapbox.common:common:23.8.0] C:\Users\user\.gradle\caches\8.9\transforms\84db2834f35ff9c7bdfc1daf0f5c1dec\transformed\common-23.8.0\AndroidManifest.xml:36:13-62
+		ADDED from [com.mapbox.common:common:23.9.1] C:\Users\user\.gradle\caches\8.9\transforms\48b061122158f18f3eb011230d5bf571\transformed\common-23.9.1\AndroidManifest.xml:36:13-62
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.15.0] C:\Users\user\.gradle\caches\8.9\transforms\4266edbe6d95669ad4503469acf307ed\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel

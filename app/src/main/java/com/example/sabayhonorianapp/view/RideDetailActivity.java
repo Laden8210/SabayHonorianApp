@@ -26,7 +26,7 @@ import java.util.Locale;
 
 public class RideDetailActivity extends AppCompatActivity {
 
-    private TextView tvDate, tvTimeStart1, tvLocationStart1, tvTimeStart2, tvLocationEnd, tvAuthorName, tvPassengerLimit, tvCarModel, tvRideDescription, tvContactAuthor;
+    private TextView tvDate, tvTimeStart1, tvLocationStart1, tvTimeStart2, tvLocationEnd, tvAuthorName, tvPassengerLimit, tvRideDescription, tvContactAuthor;
     private Button requestRideButton;
 
     private FirestoreRepositoryImpl<PostRide> postRideRepository;
@@ -34,6 +34,7 @@ public class RideDetailActivity extends AppCompatActivity {
 
     private Loader loader;
 
+    private FirebaseAuth mAuth = FirebaseAuth.getInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,9 +91,9 @@ public class RideDetailActivity extends AppCompatActivity {
                     tvLocationEnd.setText(postRide.getDestination() != null ? postRide.getDestination() : "N/A");
                     tvAuthorName.setText(postRide.getAuthorName() != null ? postRide.getAuthorName() : "N/A");
                     tvPassengerLimit.setText(postRide.getAvailableSeats() > 0 ? String.valueOf("Max available set " + postRide.getAvailableSeats()) : "N/A");
-                    tvCarModel.setText(postRide.getVehicleType() != null ? postRide.getVehicleType() : "N/A");
+
                     tvRideDescription.setText(postRide.getDescription() != null ? postRide.getDescription() : "N/A");
-                    tvContactAuthor.setText("Contact " + postRide.getAuthorName() != null ? postRide.getAuthorName() : "N/A");
+                    tvContactAuthor.setText(postRide.getAuthorName() != null ? "Contact " +  postRide.getAuthorName() : "N/A");
 
                     tvContactAuthor.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -102,6 +103,8 @@ public class RideDetailActivity extends AppCompatActivity {
                                 public void onClick(DialogInterface dialogInterface, int i) {
                                     Intent intent = new Intent(RideDetailActivity.this, ViewMessage.class);
                                     intent.putExtra("receiverId", postRide.getAuthorUID());
+
+                                    intent.putExtra("senderId", mAuth.getCurrentUser().getUid());
                                     startActivity(intent);
                                 }
                             }, new DialogInterface.OnClickListener() {

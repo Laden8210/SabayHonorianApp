@@ -73,7 +73,15 @@ public class SearchFragment extends Fragment {
             public void onSuccess(Object result) {
                 List<PostRide> postRides = (List<PostRide>) result;
 
-                rvRide.setAdapter(new RideAdapter(getContext(), postRides));
+                List<PostRide> filterRide = new ArrayList<>();
+
+                for (PostRide postRide : postRides) {
+                    if (!postRide.getStatus().equalsIgnoreCase("completed")){
+                        filterRide.add(postRide);
+                    }
+                }
+
+                rvRide.setAdapter(new RideAdapter(getContext(), filterRide));
                 loader.dismissLoader();
             }
 

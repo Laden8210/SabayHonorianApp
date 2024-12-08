@@ -23,7 +23,7 @@ import java.util.concurrent.CountDownLatch;
 public class DisplayPaymentActivity extends AppCompatActivity {
 
     private RecyclerView rvPaymentDetails;
-    private TextView tvTotalPayment;
+    private TextView tvTotalPayment, tvCommission, tvNetPayment;
     private MaterialButton btnClose;
 
     // Data
@@ -45,6 +45,9 @@ public class DisplayPaymentActivity extends AppCompatActivity {
         postRideRepository = new FirestoreRepositoryImpl<>("postRide", PostRide.class);
         bookRideRepository = new FirestoreRepositoryImpl<>("bookRide", BookRide.class);
         userAccountRepository = new FirestoreRepositoryImpl<>("user", UserAccount.class);
+
+        tvCommission = findViewById(R.id.tvCommission);
+        tvNetPayment = findViewById(R.id.tvNetPayment);
 
 
         String postRideId = getIntent().getStringExtra("postRideId");
@@ -121,6 +124,12 @@ public class DisplayPaymentActivity extends AppCompatActivity {
 
 
         tvTotalPayment.setText(String.format("Total Payment: ₱%.2f", totalPrice));
+
+        double commission = totalPrice * 0.1;
+        double netPayment = totalPrice - commission;
+
+        tvCommission.setText(String.format("Commission (10%): ₱%.2f", commission));
+        tvNetPayment.setText(String.format("Net Payment: ₱%.2f", netPayment));
 
         List<String> customerPayments = new ArrayList<>();
         CountDownLatch latch = new CountDownLatch(bookRides.size());

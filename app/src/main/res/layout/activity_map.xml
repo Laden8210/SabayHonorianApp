@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MapActivity">
+    tools:context=".MapActivity"
+    android:id="@+id/rootLayout">
 
     <com.mapbox.maps.MapView
         android:id="@+id/mapView"
@@ -36,7 +37,7 @@
                 app:boxStrokeWidth="0sp"
                 app:startIconDrawable="@drawable/baseline_search_24"
                 style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense"
-                android:layout_marginBottom="12dp">
+                android:layout_marginBottom="2dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -45,13 +46,19 @@
                     android:id="@+id/searchStartingLocation"/>
             </com.google.android.material.textfield.TextInputLayout>
 
+            <Button
+                android:id="@+id/setCurrentLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Set Current Location"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/searchLayout"
                 style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:layout_marginTop="12dp"
                 android:elevation="4dp"
                 android:hint="Search Destination"
                 app:boxCornerRadiusBottomEnd="20sp"

@@ -80,6 +80,8 @@ public class ViewMessage extends AppCompatActivity {
         if (getIntent().hasExtra("senderId")) {
             receiverID = getIntent().getStringExtra("senderId");
 
+            Log.d("ViewMessage", "receiverID: " + receiverID);
+
             FirestoreRepositoryImpl<UserAccount> userAccountRepository = new FirestoreRepositoryImpl<>("user", UserAccount.class);
 
             userAccountRepository.readByField("userUID", receiverID, new FirestoreCallback() {
@@ -115,7 +117,7 @@ public class ViewMessage extends AppCompatActivity {
         Message newMessage = new Message();
         newMessage.setSenderUID(mAuth.getCurrentUser().getUid());
 
-        newMessage.setReceiverUID(getIntent().getStringExtra("senderId"));
+        newMessage.setReceiverUID(getIntent().getStringExtra("receiverId"));
         newMessage.setMessage(message);
         newMessage.setTimestamp(Timestamp.now());
         messageService.createItem(newMessage, new FirestoreCallback() {

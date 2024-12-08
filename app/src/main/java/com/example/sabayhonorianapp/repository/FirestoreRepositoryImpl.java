@@ -264,4 +264,27 @@ public class FirestoreRepositoryImpl<T> implements FirestoreRepository<T> {
         }
     }
 
+
+    public void readAllUser(final FirestoreCallback callback) {
+        db.collection(collectionName).get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                if (task.isSuccessful()) {
+                    List<T> itemList = new ArrayList<>();
+                    for (QueryDocumentSnapshot document : task.getResult()) {
+                        T item = document.toObject(modelClass);
+
+
+
+                        itemList.add(item);
+                    }
+                    callback.onSuccess(itemList);
+                } else {
+                    Log.w("Firestore", "Error getting documents.", task.getException());
+                    callback.onFailure(task.getException());
+                }
+            }
+        });
+    }
+
 }

@@ -21,6 +21,42 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\faacd355d05aa745e51aeed08900f6c6\\transformed\\base-2.19.0\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2,6,7,8,9",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,273,343,428,505",
+                        "endLines": "5,6,7,8,9",
+                        "endColumns": "14,69,84,76,79",
+                        "endOffsets": "268,338,423,500,580"
+                    },
+                    "to": {
+                        "startLines": "2,81,82,85,89",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "150,8061,8131,8348,8577",
+                        "endLines": "5,81,82,85,89",
+                        "endColumns": "14,69,84,76,79",
+                        "endOffsets": "318,8126,8211,8420,8652"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\dbe1dd891e74d1f91b3f9fb7d5c4e73d\\transformed\\ui-voice-2.19.0\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,107",
+                        "endColumns": "51,56",
+                        "endOffsets": "102,159"
+                    },
+                    "to": {
+                        "startLines": "83,90",
+                        "startColumns": "4,4",
+                        "startOffsets": "8216,8657",
+                        "endColumns": "51,56",
+                        "endOffsets": "8263,8709"
+                    }
+                },
+                {
                     "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\4266edbe6d95669ad4503469acf307ed\\transformed\\core-1.15.0\\res\\values-gl\\values-gl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -89,24 +125,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\d1758dfd295c29ef2f2d257db1923232\\transformed\\ui-voice-2.15.2\\res\\values-gl\\values-gl.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,107",
-                        "endColumns": "51,56",
-                        "endOffsets": "102,159"
-                    },
-                    "to": {
-                        "startLines": "83,90",
-                        "startColumns": "4,4",
-                        "startOffsets": "8216,8657",
-                        "endColumns": "51,56",
-                        "endOffsets": "8263,8709"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\61774a71d8e148442c7e57884b7a8fff\\transformed\\utils-2.15.2\\res\\values-gl\\values-gl.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\0c63f07a9b7bbf20dc3e45e82101409b\\transformed\\utils-2.19.0\\res\\values-gl\\values-gl.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -137,25 +156,6 @@
                         "startOffsets": "4975,5081,5244,5373,5481,5640,5772,5891,6134,6305,6414,6583,6718,6883,7035,7102,7171",
                         "endColumns": "105,162,128,107,158,131,118,108,170,108,168,134,164,151,66,68,84",
                         "endOffsets": "5076,5239,5368,5476,5635,5767,5886,5995,6300,6409,6578,6713,6878,7030,7097,7166,7251"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\3a53f430c8e35b2534fdde32a95148b5\\transformed\\base-2.15.2\\res\\values-gl\\values-gl.xml",
-                    "from": {
-                        "startLines": "2,6,7,8,9",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "100,273,343,428,505",
-                        "endLines": "5,6,7,8,9",
-                        "endColumns": "14,69,84,76,79",
-                        "endOffsets": "268,338,423,500,580"
-                    },
-                    "to": {
-                        "startLines": "2,81,82,85,89",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "150,8061,8131,8348,8577",
-                        "endLines": "5,81,82,85,89",
-                        "endColumns": "14,69,84,76,79",
-                        "endOffsets": "318,8126,8211,8420,8652"
                     }
                 },
                 {

@@ -4,7 +4,7 @@
             "outputFile": "com.example.sabayhonorianapp-mergeDebugResources-81:/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\d1758dfd295c29ef2f2d257db1923232\\transformed\\ui-voice-2.15.2\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\dbe1dd891e74d1f91b3f9fb7d5c4e73d\\transformed\\ui-voice-2.19.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\61774a71d8e148442c7e57884b7a8fff\\transformed\\utils-2.15.2\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\0c63f07a9b7bbf20dc3e45e82101409b\\transformed\\utils-2.19.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\3a53f430c8e35b2534fdde32a95148b5\\transformed\\base-2.15.2\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\faacd355d05aa745e51aeed08900f6c6\\transformed\\base-2.19.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,8,9,10",
                         "startColumns": "4,4,4,4",

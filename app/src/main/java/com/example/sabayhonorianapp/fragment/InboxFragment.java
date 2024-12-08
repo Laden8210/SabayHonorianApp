@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -65,9 +66,12 @@ public class InboxFragment extends Fragment {
                 List<Message> messages = new ArrayList<>();
 
                 for (Message message : result) {
-                    if (message.getReceiverUID().equalsIgnoreCase(senderID)) {
-                        messages.add(message);
-                    }
+
+                        if (message.getSenderUID().equalsIgnoreCase(senderID)) {
+                            messages.add(message);
+                        }
+
+
                 }
 
                 rvInbox.setAdapter(new InboxAdapter(getContext(), messages));

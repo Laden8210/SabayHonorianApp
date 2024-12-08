@@ -2,6 +2,8 @@ package com.example.sabayhonorianapp.view;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -11,6 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -24,6 +27,7 @@ import com.example.sabayhonorianapp.model.UserAccount;
 import com.example.sabayhonorianapp.repository.FirestoreRepositoryImpl;
 import com.example.sabayhonorianapp.service.GenericService;
 import com.example.sabayhonorianapp.util.DateFormatter;
+import com.example.sabayhonorianapp.util.Loader;
 import com.example.sabayhonorianapp.util.Messenger;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.Timestamp;
@@ -62,6 +66,10 @@ public class CreateRideActivity extends AppCompatActivity {
     private GenericService<PostRide> postRideService;
     private Button btnAddRide;
 
+    private Loader loader;
+
+    private TextView tvTotalKm;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +81,10 @@ public class CreateRideActivity extends AppCompatActivity {
         userAccountGenericService = new GenericService<>(userAccountFirestoreRepository);
         postRideRepository = new FirestoreRepositoryImpl<>("postRide", PostRide.class);
         postRideService = new GenericService<>(postRideRepository);
+
+        loader = new Loader();
+
+        tvTotalKm = findViewById(R.id.tvTotalKm);
 
 
         btnAddRide = findViewById(R.id.btnAddRide);
@@ -94,6 +106,9 @@ public class CreateRideActivity extends AppCompatActivity {
         etRideTime.setOnClickListener(view -> showTimePicker(etRideTime));
         etRideEndTime.setOnClickListener(view -> showTimePicker(etRideEndTime));
 
+        etRideDate.setText(dateFormat.format(new Date()));
+        etRideTime.setText(timeFormat.format(new Date()));
+
         etAvailableSet = findViewById(R.id.etAvailableSeats);
         etDescription = findViewById(R.id.etDescription);
 
@@ -102,6 +117,21 @@ public class CreateRideActivity extends AppCompatActivity {
             etOrigin.setText(route.getStartingName());
             etDestination.setText(route.getEndingName());
 
+        }
+
+
+        if (getIntent().hasExtra("distanceKilometers")) {
+            double distanceKilometers = getIntent().getDoubleExtra("distanceKilometers", 0);
+
+            if (distanceKilometers <= 9) {
+                etFare.setText("25");
+            } else {
+                double fare = distanceKilometers * 3;
+                etFare.setText(String.format(Locale.getDefault(), "%.2f", fare));
+
+            }
+
+            tvTotalKm.setText(String.format(Locale.getDefault(), "Total Kilometer: %.2f", distanceKilometers));
         }
 
 
@@ -114,6 +144,8 @@ public class CreateRideActivity extends AppCompatActivity {
 
     public void saveAction(View view){
 
+
+
         String description = etDescription.getText().toString();
         String postDateStr = etRideDate.getText().toString();
         String rideTimeStr = etRideTime.getText().toString();
@@ -122,13 +154,62 @@ public class CreateRideActivity extends AppCompatActivity {
         String origin = etOrigin.getText().toString();
         String vehicleType = etVehicleType.getSelectedItem().toString();
         String fare = etFare.getText().toString();
-        int availableSeats = Integer.parseInt(etAvailableSet.getText().toString());
+        String availableSeatsStr = etAvailableSet.getText().toString();
 
-        if (description.isEmpty() || postDateStr.isEmpty() || rideTimeStr.isEmpty() || rideEndTimeStr.isEmpty() || destination.isEmpty() || origin.isEmpty() || vehicleType.isEmpty() || availableSeats == 0) {
+
+        if (description.isEmpty()) {
+            etDescription.setError("Description is required.");
+            return; // Stop further validation
+        }
+
+        if (postDateStr.isEmpty()) {
+            etRideDate.setError("Ride date is required.");
+            return;
+        }
+
+        if (rideTimeStr.isEmpty()) {
+            etRideTime.setError("Ride time is required.");
+            return;
+        }
+
+        if (rideEndTimeStr.isEmpty()) {
+            etRideEndTime.setError("End time is required.");
+            return;
+        }
+
+        if (destination.isEmpty()) {
+            etDestination.setError("Destination is required.");
+            return;
+        }
+
+        if (origin.isEmpty()) {
+            etOrigin.setError("Origin is required.");
+            return;
+        }
+
+        if (vehicleType.isEmpty()) {
+            // Assuming that vehicleType is a Spinner, you may want to check for a valid selection
+            Toast.makeText(this, "Please select a vehicle type.", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (fare.isEmpty() || !isNumeric(fare)) {
+            etFare.setError("Valid fare is required.");
+            return;
+        }
+
+        if (availableSeatsStr.isEmpty() || !isNumeric(availableSeatsStr)) {
+            etAvailableSet.setError("Available seats must be a number.");
+            return;
+        }
+
+
+        if (description.isEmpty() || postDateStr.isEmpty() || rideTimeStr.isEmpty() || rideEndTimeStr.isEmpty() || destination.isEmpty() || origin.isEmpty() || vehicleType.isEmpty()) {
             Messenger.showAlertDialog(this, "Error", "Please fill in all fields", "Ok").show();
             return;
         }
 
+        int availableSeats = Integer.parseInt(etAvailableSet.getText().toString());
         Date postDate = DateFormatter.parseDate(postDateStr);
         Timestamp rideTime = null, rideEndTime = null;
         try {
@@ -158,7 +239,7 @@ public class CreateRideActivity extends AppCompatActivity {
         postRide.setDestinationCoordination(route.getEndingCoordination());
        postRide.setPrice(Double.parseDouble(fare));
 
-
+        loader.showLoader(this);
         userAccountGenericService.readItemByField("userUID", mAuth.getCurrentUser().getUid(), new FirestoreCallback() {
             @Override
             public void onSuccess(Object result) {
@@ -168,11 +249,24 @@ public class CreateRideActivity extends AppCompatActivity {
                 postRideService.createItem(postRide, new FirestoreCallback() {
                     @Override
                     public void onSuccess(Object result) {
-                        Messenger.showAlertDialog(CreateRideActivity.this, "Success", "Ride published successfully", "Ok").show();
+                        loader.dismissLoader();
+                        Messenger.showAlertDialog(CreateRideActivity.this, "Success", "Ride published successfully", "Ok", "Back", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                startActivity(new Intent(CreateRideActivity.this, HeroActivity.class));
+                            }
+                        }, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                startActivity(new Intent(CreateRideActivity.this, HeroActivity.class));
+                            }
+                        }).show();
+              
                     }
 
                     @Override
                     public void onFailure(Exception e) {
+                        loader.dismissLoader();
                         Messenger.showAlertDialog(CreateRideActivity.this, "Error", "Failed to publish ride", "Ok").show();
                     }
                 });
@@ -180,6 +274,7 @@ public class CreateRideActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Exception e) {
+                loader.dismissLoader();
                 Messenger.showAlertDialog(CreateRideActivity.this, "Error", "Failed to get user information", "Ok").show();
             }
         });
@@ -204,5 +299,14 @@ public class CreateRideActivity extends AppCompatActivity {
             calendar.set(Calendar.MINUTE, minute);
             editText.setText(timeFormat.format(calendar.getTime()));
         }, calendar.get(Calendar.HOUR_OF_DAY), calendar.get(Calendar.MINUTE), true).show();
+    }
+
+    private boolean isNumeric(String str) {
+        try {
+            Integer.parseInt(str);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
     }
 }

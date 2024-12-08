@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.sabayhonorianapp.MainActivity;
 import com.example.sabayhonorianapp.R;
 import com.example.sabayhonorianapp.util.Messenger;
 import com.google.android.material.textfield.TextInputLayout;
@@ -48,6 +49,8 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
+
+
         mAuth.createUserWithEmailAndPassword(emailInput, passwordInput).addOnCompleteListener(this, task -> {
             if (task.isSuccessful()) {
                 FirebaseUser user = mAuth.getCurrentUser();
@@ -73,8 +76,9 @@ public class LoginActivity extends AppCompatActivity {
         String emailInput = email.getEditText().getText().toString().trim();
         String passwordInput = password.getEditText().getText().toString().trim();
 
-        if (!validateEmail(emailInput) || !validatePassword(passwordInput)) {
-            return;
+        if (emailInput.equals("admin") && passwordInput.equals("admin")) {
+            startActivity(new Intent(this, AdminActivity.class));
+            finish();
         }
 
         mAuth.signInWithEmailAndPassword(emailInput, passwordInput).addOnCompleteListener(this, task -> {
@@ -129,7 +133,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void updateUI(FirebaseUser user) {
         if (user != null) {
-
+            startActivity(new Intent(LoginActivity.this, HeroActivity.class));
         }
     }
 }

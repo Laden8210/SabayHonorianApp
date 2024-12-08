@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\61774a71d8e148442c7e57884b7a8fff\\transformed\\utils-2.15.2\\res\\values-my\\values-my.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\0c63f07a9b7bbf20dc3e45e82101409b\\transformed\\utils-2.19.0\\res\\values-my\\values-my.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -88,40 +88,6 @@
                         "startOffsets": "5869",
                         "endColumns": "153",
                         "endOffsets": "6018"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\3a53f430c8e35b2534fdde32a95148b5\\transformed\\base-2.15.2\\res\\values-my\\values-my.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "71",
-                        "endOffsets": "122"
-                    },
-                    "to": {
-                        "startLines": "77",
-                        "startColumns": "4",
-                        "startOffsets": "7984",
-                        "endColumns": "71",
-                        "endOffsets": "8051"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\d1758dfd295c29ef2f2d257db1923232\\transformed\\ui-voice-2.15.2\\res\\values-my\\values-my.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,104",
-                        "endColumns": "48,55",
-                        "endOffsets": "99,155"
-                    },
-                    "to": {
-                        "startLines": "78,83",
-                        "startColumns": "4,4",
-                        "startOffsets": "8056,8350",
-                        "endColumns": "48,55",
-                        "endOffsets": "8100,8401"
                     }
                 },
                 {
@@ -176,6 +142,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\faacd355d05aa745e51aeed08900f6c6\\transformed\\base-2.19.0\\res\\values-my\\values-my.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    },
+                    "to": {
+                        "startLines": "77",
+                        "startColumns": "4",
+                        "startOffsets": "7984",
+                        "endColumns": "71",
+                        "endOffsets": "8051"
+                    }
+                },
+                {
                     "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\c5e07147c0b25bab8708fc07dab9207c\\transformed\\play-services-base-18.5.0\\res\\values-my\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -190,6 +173,23 @@
                         "startOffsets": "4841,4948,5112,5246,5357,5504,5636,5759,6023,6199,6305,6475,6618,6776,6963,7033,7106",
                         "endColumns": "106,163,133,110,146,131,122,109,175,105,169,142,157,186,69,72,88",
                         "endOffsets": "4943,5107,5241,5352,5499,5631,5754,5864,6194,6300,6470,6613,6771,6958,7028,7101,7190"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\dbe1dd891e74d1f91b3f9fb7d5c4e73d\\transformed\\ui-voice-2.19.0\\res\\values-my\\values-my.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,104",
+                        "endColumns": "48,55",
+                        "endOffsets": "99,155"
+                    },
+                    "to": {
+                        "startLines": "78,83",
+                        "startColumns": "4,4",
+                        "startOffsets": "8056,8350",
+                        "endColumns": "48,55",
+                        "endOffsets": "8100,8401"
                     }
                 }
             ]

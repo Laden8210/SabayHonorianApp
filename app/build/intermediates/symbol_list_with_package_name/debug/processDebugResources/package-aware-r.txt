@@ -4582,6 +4582,7 @@ id linearLayout2
 id linearLayoutMain
 id listMode
 id list_item
+id llTotalPayment
 id locale
 id location_puck_2_d
 id location_puck_3_d
@@ -4757,6 +4758,7 @@ id right_side
 id rightwards
 id roadNameLabel
 id roadNameShieldIcon
+id rootLayout
 id rounded
 id row_index_key
 id rtl
@@ -4766,6 +4768,7 @@ id rvPaymentDetails
 id rvPublishRide
 id rvRide
 id rv_message
+id rv_registered_users
 id satellite
 id save_non_transition_alpha
 id save_overlay_view
@@ -4812,6 +4815,7 @@ id secondaryManeuverText
 id select_dialog_listview
 id selected
 id selection_type
+id setCurrentLocation
 id setRoute
 id share_button_divider
 id share_button_group
@@ -4941,14 +4945,17 @@ id tvAvailableSeats
 id tvCommentText
 id tvCommentTimestamp
 id tvCommenterName
+id tvCommission
 id tvContactAuthor
 id tvCustomerName
 id tvDate
 id tvDescription
 id tvDestination
+id tvFareInfo
 id tvLocationStart1
 id tvLocationStart2
 id tvName
+id tvNetPayment
 id tvOrigin
 id tvOriginDestination
 id tvPassengerLimit
@@ -4963,6 +4970,7 @@ id tvStatus
 id tvTimeStart1
 id tvTimeStart2
 id tvTitle
+id tvTotalKm
 id tvTotalPayment
 id tvVehicleType
 id tv_available_seats
@@ -4971,6 +4979,7 @@ id tv_location_end
 id tv_location_start
 id tv_message
 id tv_price
+id tv_registered_users_label
 id tv_ride_history
 id tv_route
 id tv_seats_available
@@ -4979,6 +4988,10 @@ id tv_time
 id tv_time_end
 id tv_time_start
 id tv_title
+id tv_total_commission
+id tv_total_commission_label
+id tv_user_commission
+id tv_user_name
 id unchecked
 id uniform
 id unique
@@ -5129,6 +5142,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_admin
 layout activity_confirmed_ride
 layout activity_create_ride
 layout activity_current_booking_ride
@@ -5182,6 +5196,7 @@ layout item_card_ride
 layout item_comment
 layout item_payment_detail
 layout item_ride
+layout item_user
 layout loader
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

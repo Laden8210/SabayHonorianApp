@@ -63,6 +63,7 @@ dependencies {
 
     implementation ("com.mapbox.mapboxsdk:mapbox-sdk-turf:5.0.0")
     implementation ("com.mapbox.navigation:android:2.15.2")
+    implementation ("com.mapbox.navigation:android:2.19.0")
     implementation ("com.mapbox.search:mapbox-search-android-ui:1.0.0-rc.6")
 
 }

@@ -15,7 +15,7 @@
     <string-array name="vehicle_type_options">
         <item>Motorcycle</item>
         <item>Tricycle</item>
-        <item>Jeepney</item>
+
         <item>Car</item>
     </string-array>
 

@@ -12,6 +12,8 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.Location;
 import android.os.Build;
 import android.os.Bundle;
@@ -28,10 +30,15 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import com.example.sabayhonorianapp.model.Coordination;
 import com.example.sabayhonorianapp.model.Route;
 import com.example.sabayhonorianapp.view.CreateRideActivity;
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
@@ -88,8 +95,10 @@ import com.mapbox.search.ui.adapter.autocomplete.PlaceAutocompleteUiAdapter;
 import com.mapbox.search.ui.view.CommonSearchViewConfiguration;
 import com.mapbox.search.ui.view.SearchResultsView;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 import java.util.Objects;
 
 import kotlin.Unit;
@@ -115,14 +124,18 @@ public class MapActivity extends AppCompatActivity {
 
     private Point startingCoordination;
     private Point destinationCoordination;
+    
+    private Button setCurrentLocation;
 
 
     private Button confirmRoute;
+    private FusedLocationProviderClient fusedLocationClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
+
 
         mapView = findViewById(R.id.mapView);
         focusLocationBtn = findViewById(R.id.focusLocation);
@@ -131,6 +144,13 @@ public class MapActivity extends AppCompatActivity {
 
         confirmRoute = findViewById(R.id.confirmRoute);
         confirmRoute.setEnabled(false);
+        
+        setCurrentLocation = findViewById(R.id.setCurrentLocation);
+        
+        setCurrentLocation.setOnClickListener(this::setCurrentLocationAction);
+
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
+
 
 
         MapboxRouteLineOptions options = new MapboxRouteLineOptions.Builder(this).withRouteLineResources(new RouteLineResources.Builder().build())
@@ -162,6 +182,25 @@ public class MapActivity extends AppCompatActivity {
         searchResultsViewStarting.initialize(new SearchResultsView.Configuration(new CommonSearchViewConfiguration()));
         placeAutocompleteUiAdapterStarting = new PlaceAutocompleteUiAdapter(searchResultsViewStarting, placeAutocompleteStarting, LocationEngineProvider.getBestLocationEngine(MapActivity.this));
 
+
+        searchStartingLocation.setOnFocusChangeListener((view, hasFocus) -> {
+            if (hasFocus) {
+                searchResultsViewStarting.setVisibility(View.VISIBLE);
+            } else {
+                searchResultsViewStarting.setVisibility(View.GONE);
+            }
+        });
+
+        searchStartingLocation.setOnClickListener(view -> {
+            searchResultsViewStarting.setVisibility(View.VISIBLE);
+        });
+
+        findViewById(R.id.rootLayout).setOnClickListener(view -> {
+            if (!searchStartingLocation.hasFocus()) {
+                searchResultsViewStarting.setVisibility(View.GONE);
+                searchResultsView.setVisibility(View.GONE);
+            }
+        });
 
 
         searchStartingLocation.addTextChangedListener(new TextWatcher() {
@@ -410,6 +449,59 @@ public class MapActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void setCurrentLocationAction(View view) {
+        searchResultsViewStarting.setVisibility(View.GONE);
+        getLastKnownLocation((location) ->{
+            double latitude = location != null ? location.getLatitude() : 0;
+            double longitude = location != null ? location.getLongitude() : 0;
+            getAddress(latitude, longitude);
+            startingCoordination = Point.fromLngLat(longitude, latitude, (double) location.getBearing());
+        });
+    }
+
+
+    interface OnLocationReceivedListener {
+        void onLocationReceived(Location location);
+    }
+
+    private void getLastKnownLocation(OnLocationReceivedListener listener) {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            fusedLocationClient.getLastLocation().addOnCompleteListener(new OnCompleteListener<Location>() {
+                @Override
+                public void onComplete(@NonNull Task<Location> task) {
+                    if (task.isSuccessful() && task.getResult() != null) {
+                        listener.onLocationReceived(task.getResult());
+                    } else {
+                        listener.onLocationReceived(null);
+                    }
+                }
+            });
+        } else {
+            listener.onLocationReceived(null);
+        }
+    }
+
+    private void getAddress(double latitude, double longitude) {
+        Geocoder geocoder = new Geocoder(this, Locale.getDefault());
+
+        try {
+            List<Address> addresses = geocoder.getFromLocation(latitude, longitude, 1);
+
+            if (addresses != null && !addresses.isEmpty()) {
+                Address address = addresses.get(0);
+
+                String addressLine = address.getAddressLine(0);
+
+                searchStartingLocation.setText(addressLine);
+            } else {
+                Log.d("Address", "No address found for the given coordinates.");
+            }
+        } catch (IOException e) {
+            Log.e("Address", "Geocoder failed", e);
+        }
+    }
+
     MapView mapView;
     MaterialButton setRoute;
     FloatingActionButton focusLocationBtn;
@@ -509,17 +601,28 @@ public class MapActivity extends AppCompatActivity {
                 focusLocationBtn.performClick();
                 resetRouteButton();
 
+
+                NavigationRoute firstRoute = routes.get(0);
+                mapboxNavigation.setNavigationRoutes(routes);
+
+                // Calculate the total distance in kilometers
+                double distanceMeters = firstRoute.getDirectionsRoute().distance();
+                double distanceKilometers = distanceMeters / 1000.0;
+                Log.d("RouteDistance", "Total distance: " + distanceKilometers + " km");
+
                 confirmRoute.setEnabled(true);
                 confirmRoute.setOnClickListener(e ->{
                     Intent intent = new Intent(MapActivity.this, CreateRideActivity.class);
                     Route route = new Route();
                     Log.d("Coordination", startingPoint.longitude() + " - " +startingPoint.latitude());
+
                     route.setStartingCoordination(new Coordination(startingPoint.longitude(), startingPoint.latitude()));
                     route.setEndingCoordination(new Coordination(endingPoint.longitude(), endingPoint.latitude()));
                     route.setStartingName(searchStartingLocation.getText().toString());
                     route.setEndingName(searchET.getText().toString());
 
                     intent.putExtra("route", route);
+                    intent.putExtra("distanceKilometers", distanceKilometers );
                     startActivity(intent);
                 });
             }
