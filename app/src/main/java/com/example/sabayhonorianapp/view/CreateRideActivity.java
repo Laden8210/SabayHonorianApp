@@ -193,7 +193,7 @@ public class CreateRideActivity extends AppCompatActivity {
             return;
         }
 
-        if (fare.isEmpty() || !isNumeric(fare)) {
+        if (fare.isEmpty()) {
             etFare.setError("Valid fare is required.");
             return;
         }
