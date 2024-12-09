@@ -67,7 +67,7 @@ public class InboxFragment extends Fragment {
 
                 for (Message message : result) {
 
-                        if (message.getSenderUID().equalsIgnoreCase(senderID)) {
+                        if (message.getSenderUID().equalsIgnoreCase(senderID) || message.getReceiverUID().equalsIgnoreCase(senderID)) {
                             messages.add(message);
                         }
 
