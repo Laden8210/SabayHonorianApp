@@ -615,7 +615,9 @@ public class MapActivity extends AppCompatActivity {
                     Intent intent = new Intent(MapActivity.this, CreateRideActivity.class);
                     Route route = new Route();
                     Log.d("Coordination", startingPoint.longitude() + " - " +startingPoint.latitude());
-
+                    mapboxNavigation.onDestroy();
+                    mapboxNavigation.unregisterRoutesObserver(routesObserver);
+                    mapboxNavigation.unregisterLocationObserver(locationObserver);
                     route.setStartingCoordination(new Coordination(startingPoint.longitude(), startingPoint.latitude()));
                     route.setEndingCoordination(new Coordination(endingPoint.longitude(), endingPoint.latitude()));
                     route.setStartingName(searchStartingLocation.getText().toString());

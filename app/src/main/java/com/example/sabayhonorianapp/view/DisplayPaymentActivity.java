@@ -128,7 +128,7 @@ public class DisplayPaymentActivity extends AppCompatActivity {
         double commission = totalPrice * 0.1;
         double netPayment = totalPrice - commission;
 
-        tvCommission.setText(String.format("Commission (10%): ₱%.2f", commission));
+        tvCommission.setText(String.format("Commission (10%%): ₱%.2f", commission));
         tvNetPayment.setText(String.format("Net Payment: ₱%.2f", netPayment));
 
         List<String> customerPayments = new ArrayList<>();

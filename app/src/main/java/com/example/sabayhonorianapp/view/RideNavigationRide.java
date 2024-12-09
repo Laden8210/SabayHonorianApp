@@ -349,6 +349,7 @@ public class RideNavigationRide extends AppCompatActivity {
         MapboxNavigationApp.setup(navigationOptions);
         mapboxNavigation = new MapboxNavigation(navigationOptions);
 
+
         mapboxNavigation.registerRouteProgressObserver(routeProgressObserver);
         mapboxNavigation.registerRoutesObserver(routesObserver);
         mapboxNavigation.registerLocationObserver(locationObserver);
@@ -463,7 +464,9 @@ public class RideNavigationRide extends AppCompatActivity {
                                         @Override
                                         public void onSuccess(Object result) {
                                             Intent intent = new Intent(RideNavigationRide.this, DisplayPaymentActivity.class);
-
+                                            mapboxNavigation.onDestroy();
+                                            mapboxNavigation.unregisterRoutesObserver(routesObserver);
+                                            mapboxNavigation.unregisterLocationObserver(locationObserver);
                                             intent.putExtra("postRideId", postRideId);
                                             startActivity(intent);
                                         }
