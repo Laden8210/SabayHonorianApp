@@ -112,8 +112,8 @@ public class CreateRideActivity extends AppCompatActivity {
         etAvailableSet = findViewById(R.id.etAvailableSeats);
         etDescription = findViewById(R.id.etDescription);
 
-        if (getIntent().hasExtra("route")){
-            route = getIntent().getParcelableExtra("route" );
+        if (getIntent().hasExtra("route")) {
+            route = getIntent().getParcelableExtra("route");
             etOrigin.setText(route.getStartingName());
             etDestination.setText(route.getEndingName());
 
@@ -123,13 +123,13 @@ public class CreateRideActivity extends AppCompatActivity {
         if (getIntent().hasExtra("distanceKilometers")) {
             double distanceKilometers = getIntent().getDoubleExtra("distanceKilometers", 0);
 
-            if (distanceKilometers <= 9) {
-                etFare.setText("25");
-            } else {
-                double fare = distanceKilometers * 3;
-                etFare.setText(String.format(Locale.getDefault(), "%.2f", fare));
 
+            double fare = distanceKilometers * 10;
+            if (fare < 28) {
+                fare = 5;
             }
+            etFare.setText(String.format(Locale.getDefault(), "%.2f", fare));
+
 
             tvTotalKm.setText(String.format(Locale.getDefault(), "Total Kilometer: %.2f", distanceKilometers));
         }
@@ -142,8 +142,7 @@ public class CreateRideActivity extends AppCompatActivity {
 
     }
 
-    public void saveAction(View view){
-
+    public void saveAction(View view) {
 
 
         String description = etDescription.getText().toString();
@@ -237,7 +236,7 @@ public class CreateRideActivity extends AppCompatActivity {
         postRide.setRideDate(postDate);
         postRide.setOriginCoordination(route.getStartingCoordination());
         postRide.setDestinationCoordination(route.getEndingCoordination());
-       postRide.setPrice(Double.parseDouble(fare));
+        postRide.setPrice(Double.parseDouble(fare));
 
         loader.showLoader(this);
         userAccountGenericService.readItemByField("userUID", mAuth.getCurrentUser().getUid(), new FirestoreCallback() {
@@ -261,7 +260,7 @@ public class CreateRideActivity extends AppCompatActivity {
                                 startActivity(new Intent(CreateRideActivity.this, HeroActivity.class));
                             }
                         }).show();
-              
+
                     }
 
                     @Override
@@ -281,7 +280,6 @@ public class CreateRideActivity extends AppCompatActivity {
 
 
     }
-
 
 
     private void showDatePicker(EditText editText) {

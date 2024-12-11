@@ -211,10 +211,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:text="Note: If the distance is below 9 km, the fare is 25 pesos. If it is higher than 9 km, the fare is calculated as Total Km * 3 pesos."
+                android:text="Note: The minimum fare is 28 pesos. For distances above 3 km, the fare is calculated as Total Km * 10 pesos."
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 android:padding="8dp" />
+
             <!-- Add Ride Button -->
             <Button
                 android:id="@+id/btnAddRide"
