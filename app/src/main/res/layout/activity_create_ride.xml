@@ -60,36 +60,8 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Ride Time -->
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp"
-                android:hint="Ride Time">
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etRideTime"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="time"
-                    android:drawableEnd="@drawable/baseline_access_time_24"
-                    android:focusable="false"
-                    android:clickable="true"/>
-            </com.google.android.material.textfield.TextInputLayout>
 
-            <!-- Ride End Time -->
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp"
-                android:hint="Ride End Time">
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etRideEndTime"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="time"
-                    android:drawableEnd="@drawable/baseline_access_time_24"
-                    android:focusable="false"
-                    android:clickable="true"/>
-            </com.google.android.material.textfield.TextInputLayout>
+
 
             <TableLayout
                 android:layout_width="match_parent"

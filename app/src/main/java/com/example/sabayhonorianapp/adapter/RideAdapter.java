@@ -47,8 +47,7 @@ public class RideAdapter extends RecyclerView.Adapter<RideAdapter.RideViewHolder
         // Bind data to views
         PostRide ride = rideList.get(position);
 
-        // Format the date
-        String formattedRideTime = formatTimestamp(ride.getRideTime(), "hh:mm a");
+
         String formattedRideDate = formatTimestamp(ride.getRideDate(), "MMMM dd, yyyy");
 
         holder.tvAuthorName.setText(ride.getAuthorName());
@@ -56,7 +55,7 @@ public class RideAdapter extends RecyclerView.Adapter<RideAdapter.RideViewHolder
         holder.tvOrigin.setText("From: " + ride.getOrigin());
         holder.tvDestination.setText("To: " + ride.getDestination());
         holder.tvRideDate.setText("Date: " + formattedRideDate);
-        holder.tvRideTime.setText("Time: " + formattedRideTime);
+
         holder.tvAvailableSeats.setText("Seats: " + ride.getAvailableSeats());
         holder.tvStatus.setText(ride.getStatus());
         holder.cardView.setOnClickListener(v -> {

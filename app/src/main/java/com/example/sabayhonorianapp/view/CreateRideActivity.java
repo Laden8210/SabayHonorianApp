@@ -54,7 +54,7 @@ import kotlin.coroutines.CoroutineContext;
 
 public class CreateRideActivity extends AppCompatActivity {
 
-    private TextInputEditText etRideDate, etRideTime, etRideEndTime, etOrigin, etDestination, etAvailableSet, etDescription, etFare;
+    private TextInputEditText etRideDate, etOrigin, etDestination, etAvailableSet, etDescription, etFare;
     private Spinner etVehicleType;
     private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
     private SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm", Locale.getDefault());
@@ -92,8 +92,7 @@ public class CreateRideActivity extends AppCompatActivity {
         btnAddRide.setOnClickListener(this::saveAction);
 
         etRideDate = findViewById(R.id.etRideDate);
-        etRideTime = findViewById(R.id.etRideTime);
-        etRideEndTime = findViewById(R.id.etRideEndTime);
+
         etOrigin = findViewById(R.id.etOrigin);
         etFare = findViewById(R.id.etFare);
 
@@ -103,11 +102,10 @@ public class CreateRideActivity extends AppCompatActivity {
         etDestination = findViewById(R.id.etDestination);
 
         etRideDate.setOnClickListener(view -> showDatePicker(etRideDate));
-        etRideTime.setOnClickListener(view -> showTimePicker(etRideTime));
-        etRideEndTime.setOnClickListener(view -> showTimePicker(etRideEndTime));
+
 
         etRideDate.setText(dateFormat.format(new Date()));
-        etRideTime.setText(timeFormat.format(new Date()));
+
 
         etAvailableSet = findViewById(R.id.etAvailableSeats);
         etDescription = findViewById(R.id.etDescription);
@@ -147,8 +145,7 @@ public class CreateRideActivity extends AppCompatActivity {
 
         String description = etDescription.getText().toString();
         String postDateStr = etRideDate.getText().toString();
-        String rideTimeStr = etRideTime.getText().toString();
-        String rideEndTimeStr = etRideEndTime.getText().toString();
+
         String destination = etDestination.getText().toString();
         String origin = etOrigin.getText().toString();
         String vehicleType = etVehicleType.getSelectedItem().toString();
@@ -166,15 +163,6 @@ public class CreateRideActivity extends AppCompatActivity {
             return;
         }
 
-        if (rideTimeStr.isEmpty()) {
-            etRideTime.setError("Ride time is required.");
-            return;
-        }
-
-        if (rideEndTimeStr.isEmpty()) {
-            etRideEndTime.setError("End time is required.");
-            return;
-        }
 
         if (destination.isEmpty()) {
             etDestination.setError("Destination is required.");
@@ -203,28 +191,19 @@ public class CreateRideActivity extends AppCompatActivity {
         }
 
 
-        if (description.isEmpty() || postDateStr.isEmpty() || rideTimeStr.isEmpty() || rideEndTimeStr.isEmpty() || destination.isEmpty() || origin.isEmpty() || vehicleType.isEmpty()) {
+        if (description.isEmpty() || postDateStr.isEmpty() || destination.isEmpty() || origin.isEmpty() || vehicleType.isEmpty()) {
             Messenger.showAlertDialog(this, "Error", "Please fill in all fields", "Ok").show();
             return;
         }
 
         int availableSeats = Integer.parseInt(etAvailableSet.getText().toString());
         Date postDate = DateFormatter.parseDate(postDateStr);
-        Timestamp rideTime = null, rideEndTime = null;
-        try {
-            Date rideTimeParsed = timeFormat.parse(rideTimeStr);
-            Date rideEndTimeParsed = timeFormat.parse(rideEndTimeStr);
-            rideTime = new Timestamp(rideTimeParsed);
-            rideEndTime = new Timestamp(rideEndTimeParsed);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
+
 
         PostRide postRide = new PostRide();
         postRide.setDescription(description);
 
-        postRide.setRideTime(rideTime);
-        postRide.setRideEnd(rideEndTime);
+
         postRide.setDestination(destination);
         postRide.setOrigin(origin);
         postRide.setVehicleType(vehicleType);

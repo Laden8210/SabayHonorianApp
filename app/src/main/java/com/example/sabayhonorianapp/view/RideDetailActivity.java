@@ -76,15 +76,6 @@ public class RideDetailActivity extends AppCompatActivity {
                         tvDate.setText("N/A");
                     }
 
-                    if (postRide.getRideTime() != null) {
-                        Date rideTimeDate = postRide.getRideTime().toDate();
-                        String formattedTime = timeFormat.format(rideTimeDate);
-                        tvTimeStart1.setText(formattedTime);
-                        tvTimeStart2.setText(formattedTime);
-                    } else {
-                        tvTimeStart1.setText("N/A");
-                        tvTimeStart2.setText("N/A");
-                    }
 
                     // Set other ride details
                     tvLocationStart1.setText(postRide.getOrigin() != null ? postRide.getOrigin() : "N/A");

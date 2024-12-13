@@ -4965,7 +4965,6 @@ id tvRideDate
 id tvRideDateLabel
 id tvRideDescription
 id tvRideTime
-id tvRideTimeLabel
 id tvStatus
 id tvTimeStart1
 id tvTimeStart2
@@ -4985,8 +4984,6 @@ id tv_route
 id tv_seats_available
 id tv_status
 id tv_time
-id tv_time_end
-id tv_time_start
 id tv_title
 id tv_total_commission
 id tv_total_commission_label

@@ -144,8 +144,7 @@ public class PublishRideBottomSheet extends BottomSheetDialogFragment {
             PostRide postRide = new PostRide();
             postRide.setDescription(description);
 
-            postRide.setRideTime(rideTime);
-            postRide.setRideEnd(rideEndTime);
+
             postRide.setDestination(destination);
             postRide.setOrigin(origin);
             postRide.setVehicleType(vehicleType);

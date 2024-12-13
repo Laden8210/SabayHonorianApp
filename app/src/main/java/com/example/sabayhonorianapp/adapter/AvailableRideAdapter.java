@@ -41,20 +41,7 @@ public class AvailableRideAdapter extends RecyclerView.Adapter<AvailableRideAdap
     public void onBindViewHolder(@NonNull AvailableRideViewHolder holder, int position) {
         PostRide postRide = postRides.get(position);
 
-        // Convert Firebase Timestamp to Date
-        if (postRide.getRideTime() != null) {
-            Date rideTimeDate = postRide.getRideTime().toDate();
-            holder.tvTimeStart.setText(formatTime(rideTimeDate));
-        } else {
-            holder.tvTimeStart.setText("N/A"); // Handle null case
-        }
 
-        if (postRide.getRideEnd() != null) {
-            Date rideEndDate = postRide.getRideEnd().toDate();
-            holder.tvTimeEnd.setText(formatTime(rideEndDate));
-        } else {
-            holder.tvTimeEnd.setText("N/A"); // Handle null case
-        }
 
         holder.tvLocationStart.setText(postRide.getOrigin());
         holder.tvLocationEnd.setText(postRide.getDestination());
@@ -82,11 +69,10 @@ public class AvailableRideAdapter extends RecyclerView.Adapter<AvailableRideAdap
     public class AvailableRideViewHolder extends RecyclerView.ViewHolder {
 
         private CardView cardView;
-        private TextView tvTimeStart, tvTimeEnd, tvLocationStart, tvLocationEnd, tvAvailableSeat, tvAuthorName, tvDescription;
+        private TextView  tvLocationStart, tvLocationEnd, tvAvailableSeat, tvAuthorName, tvDescription;
         public AvailableRideViewHolder(View itemView) {
             super(itemView);
-            tvTimeStart = itemView.findViewById(R.id.tv_time_start);
-            tvTimeEnd = itemView.findViewById(R.id.tv_time_end);
+
             tvLocationStart = itemView.findViewById(R.id.tv_location_start);
             tvLocationEnd = itemView.findViewById(R.id.tv_location_end);
             tvAvailableSeat = itemView.findViewById(R.id.tv_available_seats);

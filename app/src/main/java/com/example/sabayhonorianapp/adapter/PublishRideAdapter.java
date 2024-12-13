@@ -55,13 +55,6 @@ public class PublishRideAdapter extends RecyclerView.Adapter<PublishRideAdapter.
         }
 
         // Format the ride time
-        if (postRide.getRideTime() != null) {
-            SimpleDateFormat timeFormat = new SimpleDateFormat("hh:mm aa", Locale.getDefault());
-            String formattedTime = timeFormat.format(postRide.getRideTime().toDate());
-            holder.tvRideTime.setText(formattedTime);
-        } else {
-            holder.tvRideTime.setText("N/A");
-        }
 
         holder.tvStatus.setText(postRide.getStatus());
         holder.cardView.setOnClickListener(v -> {

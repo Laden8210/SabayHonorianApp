@@ -58,17 +58,7 @@ public class PastRideAdapter extends RecyclerView.Adapter<PastRideAdapter.PastRi
                 holder.tvPrice.setText("₱" + postRide.getPrice());
                 holder.tvRoute.setText(postRide.getOrigin() + " ➔ " + postRide.getDestination());
 
-                if (postRide.getRideTime() != null) {
-                    SimpleDateFormat timeFormat = new SimpleDateFormat("hh:mm a", Locale.getDefault());
-                    String formattedTime = timeFormat.format(postRide.getRideTime().toDate());
 
-                    SimpleDateFormat dateFormat = new SimpleDateFormat("MMM dd yyyy", Locale.getDefault());
-                    String formattedDate = dateFormat.format(postRide.getRideDate());
-
-                    holder.tvTime.setText(formattedTime + ", " + formattedDate);
-                } else {
-                    holder.tvTime.setText("Time not available");
-                }
 
                 holder.tvSeatsAvailable.setText(postRide.getAvailableSeats() + " seats available");
             }

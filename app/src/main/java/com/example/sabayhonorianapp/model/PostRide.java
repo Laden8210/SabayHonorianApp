@@ -18,8 +18,7 @@ public class PostRide implements Parcelable {
     private String authorName;
     private Date postDate;
     private String description;
-    private Timestamp rideTime;
-    private Timestamp rideEnd;
+
     private Timestamp postTime;
     private Date rideDate;
     private String destination;
@@ -32,18 +31,12 @@ public class PostRide implements Parcelable {
 
     private double price;
 
-
-    public PostRide() {
-    }
-
-    public PostRide(String postUID, String authorUID, String authorName, Date postDate, String description, Timestamp rideTime, Timestamp rideEnd, Timestamp postTime, Date rideDate, String destination, String origin, String status, String vehicleType, int availableSeats, Coordination originCoordination, Coordination destinationCoordination, double price) {
+    public PostRide(String postUID, String authorUID, String authorName, Date postDate, String description, Timestamp postTime, Date rideDate, String destination, String origin, String status, String vehicleType, int availableSeats, Coordination originCoordination, Coordination destinationCoordination, double price) {
         this.postUID = postUID;
         this.authorUID = authorUID;
         this.authorName = authorName;
         this.postDate = postDate;
         this.description = description;
-        this.rideTime = rideTime;
-        this.rideEnd = rideEnd;
         this.postTime = postTime;
         this.rideDate = rideDate;
         this.destination = destination;
@@ -56,13 +49,14 @@ public class PostRide implements Parcelable {
         this.price = price;
     }
 
+    public PostRide() {
+    }
+
     protected PostRide(Parcel in) {
         postUID = in.readString();
         authorUID = in.readString();
         authorName = in.readString();
         description = in.readString();
-        rideTime = in.readParcelable(Timestamp.class.getClassLoader());
-        rideEnd = in.readParcelable(Timestamp.class.getClassLoader());
         postTime = in.readParcelable(Timestamp.class.getClassLoader());
         destination = in.readString();
         origin = in.readString();
@@ -80,8 +74,6 @@ public class PostRide implements Parcelable {
         dest.writeString(authorUID);
         dest.writeString(authorName);
         dest.writeString(description);
-        dest.writeParcelable(rideTime, flags);
-        dest.writeParcelable(rideEnd, flags);
         dest.writeParcelable(postTime, flags);
         dest.writeString(destination);
         dest.writeString(origin);
@@ -148,22 +140,6 @@ public class PostRide implements Parcelable {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public Timestamp getRideTime() {
-        return rideTime;
-    }
-
-    public void setRideTime(Timestamp rideTime) {
-        this.rideTime = rideTime;
-    }
-
-    public Timestamp getRideEnd() {
-        return rideEnd;
-    }
-
-    public void setRideEnd(Timestamp rideEnd) {
-        this.rideEnd = rideEnd;
     }
 
     public Timestamp getPostTime() {

@@ -109,7 +109,7 @@ public class CurrentBookingRideActivity extends AppCompatActivity {
 
     private void displayPostRideDetails(PostRide postRide) {
         tvAuthorName.setText("Author: " + postRide.getAuthorName());
-        tvRideTime.setText("Ride Time: " + postRide.getRideTime().toDate().toString());
+
         tvOriginDestination.setText("Route: " + postRide.getOrigin() + " ➔ " + postRide.getDestination());
         tvDescription.setText("Description: " + postRide.getDescription());
         tvVehicleType.setText("Vehicle: " + postRide.getVehicleType());

@@ -152,10 +152,6 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\item_ride.xml"
     },
     {
-        "merged": "com.example.sabayhonorianapp-debug-83:/layout_activity_login.xml.flat",
-        "source": "com.example.sabayhonorianapp-main-85:/layout/activity_login.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_card_available_ride.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\layout\\card_available_ride.xml"
     },
@@ -250,6 +246,10 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\drawable_card_background.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-main-85:\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "com.example.sabayhonorianapp-debug-83:/layout_card_publish_ride.xml.flat",
+        "source": "com.example.sabayhonorianapp-main-85:/layout/card_publish_ride.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.9\\com.example.sabayhonorianapp-debug-83:\\layout_fragment_dashboard.xml.flat",
